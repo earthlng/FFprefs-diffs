@@ -21,6 +21,6 @@ ___
 * 51.0 vs 51.0.1
   * no changes
 
-* 51.0 vs 52beta
+* 51.0 vs 52beta [raw](https://raw.githubusercontent.com/earthlng/FFprefs-diffs/master/diff-v51.0-vs-v52beta.log "51.0 vs 52beta")
   * 115 diffs ( 54 new, 38 gone, 23 different )
 
