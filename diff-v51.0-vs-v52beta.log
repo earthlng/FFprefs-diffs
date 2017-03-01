@@ -125,3 +125,4 @@ pref("network.predictor.enable-prefetch", true); // prev: false
 pref("security.pki.sha1_enforcement_level", 3); // prev: 4
 pref("services.sync.registerEngines", "Bookmarks,Form,History,Password,Prefs,Tab,Addons,ExtensionStorage"); // prev: "Bookmarks,Form,History,Password,Prefs,Tab,Addons"
 pref("services.sync.sendTabToDevice.enabled", true); // prev: false
+
