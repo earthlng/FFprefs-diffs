@@ -18,11 +18,14 @@ ___
 
 ## Changelog
 
-* 52.0 vs 52.0.1 vs 52.0.2
-  * no changes
+* [52.0 vs 53.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v52.0-vs-v53.0.log.js "52.0 vs 53.0")
+  * 133 diffs ( 74 new, 38 gone, 21 different )
 
 * [52.0 vs 53.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v52.0-vs-v53.0b1.log.js "52.0 vs 53.0b1")
   * 134 diffs ( 75 new, 37 gone, 22 different )
+
+* 52.0 vs 52.0.1 vs 52.0.2
+  * no changes
 
 * [51.0 vs 52.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v51.0-vs-v52.0.log.js "51.0 vs 52.0")
   * 116 diffs ( 55 new, 38 gone, 23 different )
