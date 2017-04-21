@@ -1,9 +1,9 @@
 /******************************************************************************************
  * diffs between FF prefs v53.0 and v54.0b1
  *
- * prefs: 2877
- *        2734 matching prefs
- *         143 diffs ( 47 new, 82 gone, 14 different )
+ * prefs: 2882
+ *        2761 matching prefs
+ *         121 diffs ( 52 new, 55 gone, 14 different )
  ******************************************************************************************/
 // new in v54.0b1:
 pref("apz.allow_with_webrender", false);
@@ -41,6 +41,11 @@ pref("layout.css.appearance.enabled", true);
 pref("layout.css.moz-appearance.enabled", true);
 pref("layout.css.text-justify.enabled", false);
 pref("layout.scrollbars.always-layerize-track", false);
+pref("marionette.enabled", false);
+pref("marionette.forcelocal", true);
+pref("marionette.log.level", "info");
+pref("marionette.port", 2828);
+pref("marionette.prefs.recommended", true);
 pref("media.eme.vp9-in-mp4.enabled", false);
 pref("media.ffmpeg.low-latency.enabled", false);
 pref("network.http.referer.hideOnionSource", false);
@@ -62,33 +67,6 @@ pref("browser.newtabpage.remote.mode", "production");
 pref("browser.newtabpage.remote.version", "1");
 pref("browser.safebrowsing.reportMalwareMistakeURL", "https://%LOCALE%.malware-error.mozilla.com/?hl=%LOCALE%&url=");
 pref("browser.safebrowsing.reportPhishMistakeURL", "https://%LOCALE%.phish-error.mozilla.com/?hl=%LOCALE%&url=");
-pref("devtools.debugger.auto-black-box", true);
-pref("devtools.debugger.auto-pretty-print", false);
-pref("devtools.debugger.call-stack-visible", false);
-pref("devtools.debugger.chrome-debugging-host", "localhost");
-pref("devtools.debugger.chrome-debugging-port", 6080);
-pref("devtools.debugger.chrome-debugging-websocket", false);
-pref("devtools.debugger.client-source-maps-enabled", true);
-pref("devtools.debugger.enabled", true);
-pref("devtools.debugger.end-panel-collapsed", false);
-pref("devtools.debugger.ignore-caught-exceptions", true);
-pref("devtools.debugger.new-debugger-frontend", false);
-pref("devtools.debugger.pause-on-exceptions", false);
-pref("devtools.debugger.pending-selected-location", "{}");
-pref("devtools.debugger.pretty-print-enabled", true);
-pref("devtools.debugger.remote-host", "localhost");
-pref("devtools.debugger.remote-timeout", 20000);
-pref("devtools.debugger.scopes-visible", false);
-pref("devtools.debugger.source-maps-enabled", true);
-pref("devtools.debugger.start-panel-collapsed", false);
-pref("devtools.debugger.tabs", "[]");
-pref("devtools.debugger.ui.panes-instruments-width", 300);
-pref("devtools.debugger.ui.panes-visible-on-startup", false);
-pref("devtools.debugger.ui.panes-workers-and-sources-width", 200);
-pref("devtools.debugger.ui.variables-only-enum-visible", false);
-pref("devtools.debugger.ui.variables-searchbox-visible", false);
-pref("devtools.debugger.ui.variables-sorting-enabled", true);
-pref("devtools.debugger.workers", false);
 pref("devtools.sourcemap.locations.enabled", false);
 pref("devtools.toolbox.toolbarSpec", '["splitconsole", "paintflashing toggle","scratchpad","resize toggle","screenshot --fullpage --file", "rulers", "measure"]');
 pref("dom.archivereader.enabled", false);
