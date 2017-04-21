@@ -14,7 +14,7 @@ _The diffs are created using 64-bit Firefoxes on Windows,
 > 6. browser/omni.ja/defaults/preferences/firefox-branding.js
 > 7. browser/omni.ja/defaults/preferences/devtools.js
 
-_starting with Firefox 54.0beta1 two new files were added/split-out (marionette.js and debugger.js). new order:_
+_starting with Firefox 54.0beta1 two new files were added/split-out (marionette.js and [debugger.js](https://bugzilla.mozilla.org/show_bug.cgi?id=1328693)). new order:_
 
 > 1. omni.ja/greprefs.js
 > 2. omni.ja/defaults/pref/services-sync.js
@@ -30,7 +30,7 @@ ___
 ## Changelog
 
 * [53.0 vs 54.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v53.0-vs-v54.0b1.log.js "53.0 vs 54.0b1")
-  * 143 diffs ( 47 new, 82 gone, 14 different )
+  * 121 diffs ( 52 new, 55 gone, 14 different )
 
 * [52.0 vs 53.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v52.0-vs-v53.0.log.js "52.0 vs 53.0")
   * 133 diffs ( 74 new, 38 gone, 21 different )
