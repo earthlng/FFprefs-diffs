@@ -18,6 +18,9 @@ ___
 
 ## Changelog
 
+* [53.0 vs 54.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v53.0-vs-v54.0b1.log.js "53.0 vs 54.0b1")
+  * 143 diffs ( 47 new, 82 gone, 14 different )
+
 * [52.0 vs 53.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v52.0-vs-v53.0.log.js "52.0 vs 53.0")
   * 133 diffs ( 74 new, 38 gone, 21 different )
 
