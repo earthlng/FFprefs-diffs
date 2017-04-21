@@ -14,6 +14,17 @@ _The diffs are created using 64-bit Firefoxes on Windows,
 > 6. browser/omni.ja/defaults/preferences/firefox-branding.js
 > 7. browser/omni.ja/defaults/preferences/devtools.js
 
+_starting with Firefox 54.0beta1 two new files were added/split-out (marionette.js and debugger.js). new order:_
+
+> 1. omni.ja/greprefs.js
+> 2. omni.ja/defaults/pref/services-sync.js
+> 3. omni.ja/defaults/pref/marionette.js
+> 4. browser/omni.ja/defaults/preferences/webide-prefs.js
+> 5. browser/omni.ja/defaults/preferences/firefox.js
+> 6. browser/omni.ja/defaults/preferences/firefox-l10n.js
+> 7. browser/omni.ja/defaults/preferences/firefox-branding.js
+> 8. browser/omni.ja/defaults/preferences/devtools.js
+> 9. browser/omni.ja/defaults/preferences/debugger.js
 ___
 
 ## Changelog
