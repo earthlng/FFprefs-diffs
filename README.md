@@ -8,7 +8,7 @@ ___
 * [53.0 vs 54.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v53.0-vs-v54.0b1.log.js "53.0 vs 54.0b1")
   * 121 diffs ( 52 new, 55 gone, 14 different )
 
-* 53.0 vs 53.0.2
+* 53.0 vs 53.0.2 vs 53.0.3
   * no changes
 
 * [53.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v53.0.html)
