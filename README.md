@@ -5,6 +5,9 @@ ___
 
 ## Changelog
 
+* [54.0 vs 55.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0b1.log.js "54.0 vs 55.0b1")
+  * 432 diffs ( 202 new, 66 gone, 164 different )
+  
 * [54.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v54.0.html)
 
 * [53.0 vs 54.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v53.0-vs-v54.0.log.js "53.0 vs 54.0")
