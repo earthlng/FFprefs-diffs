@@ -33,6 +33,14 @@ ___
 * 51.0 vs 51.0.1
   * no changes
 
+### ESR
+
+* [52.1.0esr vs 52.2.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.1.0esr-vs-v52.2.0esr.log.js "52.1.0esr vs 52.2.0esr")
+  * 3 diffs ( 3 new, 0 gone, 0 different )
+  
+* [52.0esr vs 52.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.0esr-vs-v52.1.0esr.log.js "52.0esr vs 52.1.0esr")
+  * 2 diffs ( 0 new, 0 gone, 2 different )
+
 ___
 
 _The diffs are created using 64-bit Firefoxes on Windows,  
