@@ -5,41 +5,31 @@ ___
 
 ## Changelog
 
-* [54.0 vs 55.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0b1.log.js "54.0 vs 55.0b1")
-  * 432 diffs ( 202 new, 66 gone, 164 different )
+* [54.0 vs 55.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0b1.log.js "54.0 vs 55.0b1") - 432 diffs ( 202 new, 66 gone, 164 different )
   
 * [54.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v54.0.html)
 
-* [53.0 vs 54.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v53.0-vs-v54.0.log.js "53.0 vs 54.0")
-  * 119 diffs ( 54 new, 55 gone, 10 different )
+* [53.0 vs 54.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v53.0-vs-v54.0.log.js "53.0 vs 54.0") - 119 diffs ( 54 new, 55 gone, 10 different )
 
-* [53.0 vs 54.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v53.0-vs-v54.0b1.log.js "53.0 vs 54.0b1")
-  * 121 diffs ( 52 new, 55 gone, 14 different )
+* [53.0 vs 54.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v53.0-vs-v54.0b1.log.js "53.0 vs 54.0b1") - 121 diffs ( 52 new, 55 gone, 14 different )
 
-* 53.0 vs 53.0.2 vs 53.0.3
-  * no changes
+* 53.0 vs 53.0.2 vs 53.0.3 - no changes
 
 * [53.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v53.0.html)
 
-* [52.0 vs 53.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v52.0-vs-v53.0.log.js "52.0 vs 53.0")
-  * 133 diffs ( 74 new, 38 gone, 21 different )
+* [52.0 vs 53.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v52.0-vs-v53.0.log.js "52.0 vs 53.0") - 133 diffs ( 74 new, 38 gone, 21 different )
 
-* 52.0 vs 52.0.1 vs 52.0.2
-  * no changes
+* 52.0 vs 52.0.1 vs 52.0.2 - no changes
 
-* [51.0 vs 52.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v51.0-vs-v52.0.log.js "51.0 vs 52.0")
-  * 116 diffs ( 55 new, 38 gone, 23 different )
+* [51.0 vs 52.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v51.0-vs-v52.0.log.js "51.0 vs 52.0") - 116 diffs ( 55 new, 38 gone, 23 different )
 
-* 51.0 vs 51.0.1
-  * no changes
+* 51.0 vs 51.0.1 - no changes
 
 ### ESR
 
-* [52.1.0esr vs 52.2.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.1.0esr-vs-v52.2.0esr.log.js "52.1.0esr vs 52.2.0esr")
-  * 3 diffs ( 3 new, 0 gone, 0 different )
+* [52.1.0esr vs 52.2.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.1.0esr-vs-v52.2.0esr.log.js "52.1.0esr vs 52.2.0esr") - 3 diffs ( 3 new, 0 gone, 0 different )
   
-* [52.0esr vs 52.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.0esr-vs-v52.1.0esr.log.js "52.0esr vs 52.1.0esr")
-  * 2 diffs ( 0 new, 0 gone, 2 different )
+* [52.0esr vs 52.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.0esr-vs-v52.1.0esr.log.js "52.0esr vs 52.1.0esr") - 2 diffs ( 0 new, 0 gone, 2 different )
 
 ___
 
