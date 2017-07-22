@@ -25,6 +25,8 @@ ___
 
 * 51.0 vs 51.0.1 - no changes
 
+* [older versions](https://github.com/earthlng/FFprefs-diffs/tree/master/diffs)
+
 ### ESR
 
 * [52.1.0esr vs 52.2.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.1.0esr-vs-v52.2.0esr.log.js "52.1.0esr vs 52.2.0esr") - 3 diffs ( 3 new, 0 gone, 0 different )
