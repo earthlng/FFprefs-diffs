@@ -5,13 +5,17 @@ ___
 
 ## Changelog
 
+* [55.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v55.0.html)
+
+* [54.0 vs 55.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0.log.js "54.0 vs 55.0") - 431 diffs ( 206 new, 66 gone, 159 different )
+
 * [54.0 vs 55.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0b1.log.js "54.0 vs 55.0b1") - 432 diffs ( 202 new, 66 gone, 164 different )
-  
+
+* 54.0 vs 54.0.1 - no changes
+
 * [54.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v54.0.html)
 
 * [53.0 vs 54.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v53.0-vs-v54.0.log.js "53.0 vs 54.0") - 119 diffs ( 54 new, 55 gone, 10 different )
-
-* [53.0 vs 54.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v53.0-vs-v54.0b1.log.js "53.0 vs 54.0b1") - 121 diffs ( 52 new, 55 gone, 14 different )
 
 * 53.0 vs 53.0.2 vs 53.0.3 - no changes
 
@@ -22,8 +26,6 @@ ___
 * 52.0 vs 52.0.1 vs 52.0.2 - no changes
 
 * [51.0 vs 52.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diff-v51.0-vs-v52.0.log.js "51.0 vs 52.0") - 116 diffs ( 55 new, 38 gone, 23 different )
-
-* 51.0 vs 51.0.1 - no changes
 
 * [older versions](https://github.com/earthlng/FFprefs-diffs/tree/master/diffs)
 
