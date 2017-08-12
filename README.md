@@ -13,7 +13,7 @@ ___
 pref("network.predictor.enable-prefetch", false); // prev: true
 ```
 
-* [54.0 vs 55.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0.log.js "54.0 vs 55.0") - 431 diffs ( 206 new, 66 gone, 159 different )
+* [54.0 vs 55.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0.log.js "54.0 vs 55.0") - 432 diffs ( 207 new, 66 gone, 159 different )
 
 * [54.0 vs 55.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0b1.log.js "54.0 vs 55.0b1") - 432 diffs ( 202 new, 66 gone, 164 different )
 
