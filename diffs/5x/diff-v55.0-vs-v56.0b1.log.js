@@ -1,9 +1,9 @@
 /******************************************************************************************
  * diffs between FF prefs v55.0 and v56.0b1
  *
- * prefs: 3057
+ * prefs: 3059
  *        2898 matching prefs
- *         159 diffs ( 88 new, 27 gone, 44 different )
+ *         161 diffs ( 89 new, 28 gone, 44 different )
  ******************************************************************************************/
 // new in v56.0b1:
 pref("accessibility.handler.enabled", true);
@@ -33,6 +33,7 @@ pref("devtools.gridinspector.gridOutlineMaxColumns", 50);
 pref("devtools.gridinspector.gridOutlineMaxRows", 50);
 pref("devtools.gridinspector.showNegativeLineNumbers", false);
 pref("devtools.inspector.shapesHighlighter.enabled", false);
+pref("devtools.netmonitor.visibleColumns", "[\"status\",\"method\",\"file\",\"domain\",\"cause\",\"type\",\"transferred\",\"contentSize\",\"waterfall\"]");
 pref("devtools.promote.layoutview", 1);
 pref("devtools.promote.layoutview.showPromoteBar", true);
 pref("dom.disable_window_showModalDialog", true);
@@ -108,6 +109,7 @@ pref("browser.urlbar.restrict.tag", "+");
 pref("browser.urlbar.restrict.typed", "~");
 pref("devtools.gridinspector.showGridOutline", false);
 pref("devtools.layoutview.enabled", false);
+pref("devtools.netmonitor.hiddenColumns", "[\"cookies\",\"duration\",\"endTime\",\"latency\",\"protocol\",\"remoteip\",\"responseTime\",\"scheme\",\"setCookies\",\"startTime\"]");
 pref("dom.forms.autocomplete.experimental", false);
 pref("dom.ipc.plugins.asyncInit.enabled", false);
 pref("dom.timeout.tracking_throttling_delay", 30000);
