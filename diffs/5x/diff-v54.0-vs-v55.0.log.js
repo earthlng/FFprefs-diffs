@@ -1,9 +1,9 @@
 /******************************************************************************************
  * diffs between FF prefs v54.0 and v55.0
  *
- * prefs: 3035
+ * prefs: 3036
  *        2604 matching prefs
- *         431 diffs ( 206 new, 66 gone, 159 different )
+ *         432 diffs ( 207 new, 66 gone, 159 different )
  ******************************************************************************************/
 // new in v55.0:
 pref("app.releaseNotesURL", "https://www.mozilla.org/%LOCALE%/firefox/%VERSION%/releasenotes/?utm_source=firefox-browser&utm_medium=firefox-browser&utm_campaign=whatsnew");
@@ -42,6 +42,7 @@ pref("devtools.debugger.ui.framework-grouping-on", true);
 pref("devtools.gridinspector.showGridAreas", false);
 pref("devtools.layout.boxmodel.opened", true);
 pref("devtools.layout.grid.opened", true);
+pref("devtools.netmonitor.hiddenColumns", "[\"cookies\",\"duration\",\"endTime\",\"latency\",\"protocol\",\"remoteip\",\"responseTime\",\"scheme\",\"setCookies\",\"startTime\"]");
 pref("devtools.source-map.client-service.enabled", true);
 pref("dom.allow_named_properties_object_for_xrays", 1);
 pref("dom.forms.datetime.others", false);
