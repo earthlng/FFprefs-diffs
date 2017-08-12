@@ -5,7 +5,7 @@ ___
 
 ## Changelog
 
-* [55.0 vs 56.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v55.0-vs-v56.0b1.log.js "55.0 vs 56.0b1") - 159 diffs ( 88 new, 27 gone, 44 different )
+* [55.0 vs 56.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v55.0-vs-v56.0b1.log.js "55.0 vs 56.0b1") - 161 diffs ( 89 new, 28 gone, 44 different )
 
 * 55.0 vs 55.0.1
 ```js
