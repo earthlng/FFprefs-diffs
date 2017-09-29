@@ -2,8 +2,8 @@
  * diffs between FF prefs v56.0 and v57.0b3
  *
  * prefs: 3109
- *        2949 matching prefs
- *         160 diffs ( 76 new, 32 gone, 52 different )
+ *        2952 matching prefs
+ *         157 diffs ( 76 new, 29 gone, 52 different )
  ******************************************************************************************/
 // new in v57.0b3:
 pref("accessibility.indicator.enabled", true);
@@ -97,11 +97,8 @@ pref("browser.onboarding.hidden", false);
 pref("browser.photon.structure.enabled", false);
 pref("browser.preferences.useOldOrganization", false);
 pref("devtools.debugger.chrome-debugging-port", 6080);
-pref("devtools.jsonview.enabled", true);
 pref("devtools.loader.hotreload", false);
 pref("devtools.styleeditor.source-maps-enabled", true);
-pref("devtools.theme", "light");
-pref("devtools.toolbar.visible", false);
 pref("devtools.webide.adaptersAddonID", "fxdevtools-adapters@mozilla.org");
 pref("devtools.webide.adaptersAddonURL", "https://ftp.mozilla.org/pub/mozilla.org/labs/valence/#OS#/valence-#OS#-latest.xpi");
 pref("devtools.webide.autoinstallFxdtAdapters", true);
