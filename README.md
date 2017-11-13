@@ -1,5 +1,5 @@
 # FFprefs-diffs
-listing changes in Firefox prefs
+listing changes in Firefox default preferences
 
 ___
 
