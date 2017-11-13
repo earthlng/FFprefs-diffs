@@ -5,11 +5,11 @@ ___
 
 ## Changelog
 
+* [56.0 vs 57.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v56.0-vs-v57.0.log.js "56.0 vs 57.0") - 161 diffs ( 80 new, 33 gone, 48 different )
+
 * [56.0 vs 57.0b3](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v56.0-vs-v57.0b3.log.js "56.0 vs 57.0b3") - 157 diffs ( 76 new, 29 gone, 52 different )
 
 * [55.0 vs 56.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v55.0-vs-v56.0.log.js "55.0 vs 56.0") - 150 diffs ( 91 new, 28 gone, 31 different )
-
-* [55.0 vs 56.0b1](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v55.0-vs-v56.0b1.log.js "55.0 vs 56.0b1") - 161 diffs ( 89 new, 28 gone, 44 different )
 
 * 55.0.1 vs 55.0.2 vs 55.0.3 - no changes
 
