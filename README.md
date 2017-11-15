@@ -31,6 +31,8 @@ pref("network.predictor.enable-prefetch", false); // prev: true
 
 ### ESR
 
+* 52.4.0esr vs 52.5.0esr - no changes
+
 * 52.3.0esr vs 52.4.0esr - no changes
 
 * [52.2.0esr vs 52.3.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.2.0esr-vs-v52.3.0esr.log.js "52.2.0esr vs 52.3.0esr") - 1 diffs ( 0 new, 0 gone, 1 different )
