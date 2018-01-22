@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<head>
+<title>Firefox 58.0 Preferences differences in Windows/Linux/Mac</title>
+<style>
+table.diffs { border-collapse: collapse; font-size: x-small; overflow: auto; }
+table.diffs td { border: 1px solid #ddd; padding: 1px; vertical-align: top; }
+table.diffs thead td { background-color: #ddd; font-weight: bold; }
+table.diffs td.undefined { color: #888; font-style: italic; }
+table.diffs tbody tr:hover { background-color: #eee; }
+table.diffs tbody tr { transition: background 0.125s ease-in-out 0s; }
+</style>
+</head>
+<body>
+<h2>Firefox 58.0 Preferences differences in Windows/Linux/Mac</h2>
+<table class="diffs">
+<thead><tr><td>Pref</td><td style="width: 20%">Windows</td><td style="width: 20%">Linux</td><td style="width: 20%">Mac</td></tr></thead>
+<tbody>
+<tr><td>accessibility.delay_plugin_time</td><td>10000</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>accessibility.delay_plugins</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>accessibility.handler.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>accessibility.tabfocus</td><td>7</td><td>7</td><td class="undefined">undefined</td></tr>
+<tr><td>accessibility.tabfocus_applies_to_xul</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>accessibility.typeaheadfind.prefillwithselection</td><td>true</td><td>true</td><td>false</td></tr>
+<tr><td>app.update.service.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>autocomplete.grab_during_popup</td><td class="undefined">undefined</td><td>true</td><td class="undefined">undefined</td></tr>
+<tr><td>autocomplete.ungrab_during_mode_switch</td><td class="undefined">undefined</td><td>true</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.backspace_action</td><td>0</td><td>2</td><td>0</td></tr>
+<tr><td>browser.drag_out_of_frame_style</td><td class="undefined">undefined</td><td>1</td><td>1</td></tr>
+<tr><td>browser.gesture.pinch.in</td><td>"cmd_fullZoomReduce"</td><td>"cmd_fullZoomReduce"</td><td>""</td></tr>
+<tr><td>browser.gesture.pinch.in.shift</td><td>"cmd_fullZoomReset"</td><td>"cmd_fullZoomReset"</td><td>""</td></tr>
+<tr><td>browser.gesture.pinch.latched</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>browser.gesture.pinch.out</td><td>"cmd_fullZoomEnlarge"</td><td>"cmd_fullZoomEnlarge"</td><td>""</td></tr>
+<tr><td>browser.gesture.pinch.out.shift</td><td>"cmd_fullZoomReset"</td><td>"cmd_fullZoomReset"</td><td>""</td></tr>
+<tr><td>browser.gesture.pinch.threshold</td><td>25</td><td>25</td><td>150</td></tr>
+<tr><td>browser.helperApps.deleteTempFileOnExit</td><td>true</td><td>true</td><td>false</td></tr>
+<tr><td>browser.link.open_newwindow.disabled_in_fullscreen</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>browser.preferences.instantApply</td><td>false</td><td>true</td><td>true</td></tr>
+<tr><td>browser.tabs.drawInTitlebar</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>browser.taskbar.lists.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.lists.frequent.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.lists.maxListItemCount</td><td>7</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.lists.recent.enabled</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.lists.refreshInSeconds</td><td>120</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.lists.tasks.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.previews.cachetime</td><td>5</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.previews.enable</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.taskbar.previews.max</td><td>20</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>browser.urlbar.clickSelectsAll</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>browser.urlbar.doubleClickSelectsAll</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>clipboard.autocopy</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>content.sink.pending_event_mode</td><td class="undefined">undefined</td><td>0</td><td>0</td></tr>
+<tr><td>dom.forms.select.customstyling</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>dom.ipc.plugins.hangUIMinDisplaySecs</td><td>10</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>dom.ipc.plugins.hangUITimeoutSecs</td><td>11</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>dom.ipc.plugins.nativeCursorSupport</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>true</td></tr>
+<tr><td>dom.ipc.plugins.sandbox-level.default</td><td>0</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>dom.ipc.plugins.sandbox-level.flash</td><td>2</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>dom.vr.enabled</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>dom.vr.openvr.enabled</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>dom.w3c_pointer_events.dispatch_by_pointer_messages</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>dom.w3c_touch_events.enabled</td><td>2</td><td>2</td><td>0</td></tr>
+<tr><td>extensions.geckoProfiler.getSymbolRules</td><td>"localBreakpad,remoteBreakpad"</td><td>"localBreakpad,remoteBreakpad,nm"</td><td>"localBreakpad,remoteBreakpad,nm"</td></tr>
+<tr><td>extensions.webextensions.remote</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>font.default.x-devanagari</td><td>"sans-serif"</td><td>"serif"</td><td>"serif"</td></tr>
+<tr><td>font.minimum-size.th</td><td>10</td><td>13</td><td>10</td></tr>
+<tr><td>font.name-list.cursive.ar</td><td>"Comic Sans MS"</td><td class="undefined">undefined</td><td>"DecoType Naskh"</td></tr>
+<tr><td>font.name-list.cursive.el</td><td>"Comic Sans MS"</td><td class="undefined">undefined</td><td>"Lucida Grande, Times"</td></tr>
+<tr><td>font.name-list.cursive.he</td><td>"Guttman Yad, Ktav, Arial"</td><td class="undefined">undefined</td><td>"Times New Roman"</td></tr>
+<tr><td>font.name-list.cursive.ko</td><td>"Gungsuh"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>font.name-list.cursive.th</td><td>"Tahoma"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>font.name-list.cursive.x-cyrillic</td><td>"Comic Sans MS"</td><td class="undefined">undefined</td><td>"Geneva"</td></tr>
+<tr><td>font.name-list.cursive.x-ethi</td><td>"Visual Geez Unicode Title"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>font.name-list.cursive.x-math</td><td>"Comic Sans MS"</td><td class="undefined">undefined</td><td>"Apple Chancery"</td></tr>
+<tr><td>font.name-list.cursive.x-unicode</td><td>"Comic Sans MS"</td><td class="undefined">undefined</td><td>"Apple Chancery"</td></tr>
+<tr><td>font.name-list.cursive.x-western</td><td>"Comic Sans MS"</td><td class="undefined">undefined</td><td>"Apple Chancery"</td></tr>
+<tr><td>font.name-list.cursive.zh-CN</td><td>"KaiTi, KaiTi_GB2312"</td><td class="undefined">undefined</td><td>"Kaiti SC"</td></tr>
+<tr><td>font.name-list.cursive.zh-HK</td><td>"DFKai-SB"</td><td class="undefined">undefined</td><td>"Kaiti TC"</td></tr>
+<tr><td>font.name-list.cursive.zh-TW</td><td>"DFKai-SB"</td><td class="undefined">undefined</td><td>"Kaiti TC"</td></tr>
+<tr><td>font.name-list.fantasy.ar</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"KufiStandardGK"</td></tr>
+<tr><td>font.name-list.fantasy.el</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Lucida Grande, Times"</td></tr>
+<tr><td>font.name-list.fantasy.he</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Times New Roman"</td></tr>
+<tr><td>font.name-list.fantasy.x-cyrillic</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Charcoal CY"</td></tr>
+<tr><td>font.name-list.fantasy.x-math</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Papyrus"</td></tr>
+<tr><td>font.name-list.fantasy.x-unicode</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Papyrus"</td></tr>
+<tr><td>font.name-list.fantasy.x-western</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Papyrus"</td></tr>
+<tr><td>font.name-list.monospace.ar</td><td>"Courier New"</td><td>"monospace"</td><td>"Geeza Pro"</td></tr>
+<tr><td>font.name-list.monospace.el</td><td>"Courier New"</td><td>"monospace"</td><td>"Courier New, Lucida Grande"</td></tr>
+<tr><td>font.name-list.monospace.he</td><td>"Fixed Miriam Transparent, Miriam Fixed, Rod, Courier New"</td><td>"monospace"</td><td>"Courier New"</td></tr>
+<tr><td>font.name-list.monospace.ja</td><td>"MS Gothic, MS Mincho, Meiryo, Yu Gothic, Yu Mincho, MS PGothic, MS PMincho"</td><td>"monospace"</td><td>"Osaka-Mono"</td></tr>
+<tr><td>font.name-list.monospace.ko</td><td>"GulimChe"</td><td>"monospace"</td><td>"Apple SD Gothic Neo, AppleGothic"</td></tr>
+<tr><td>font.name-list.monospace.th</td><td>"Tahoma"</td><td>"monospace"</td><td>"Ayuthaya"</td></tr>
+<tr><td>font.name-list.monospace.x-armn</td><td>"Arial AMU"</td><td>"monospace"</td><td>"Mshtakan"</td></tr>
+<tr><td>font.name-list.monospace.x-beng</td><td>"Mitra Mono, Likhan, Mukti Narrow"</td><td>"monospace"</td><td>"Bangla Sangam MN"</td></tr>
+<tr><td>font.name-list.monospace.x-cans</td><td>"Aboriginal Sans, OskiDakelh, Pigiarniq, Uqammaq"</td><td>"monospace"</td><td>"Euphemia UCAS"</td></tr>
+<tr><td>font.name-list.monospace.x-cyrillic</td><td>"Courier New"</td><td>"monospace"</td><td>"Monaco, Courier New"</td></tr>
+<tr><td>font.name-list.monospace.x-devanagari</td><td>"Mangal, Nirmala UI"</td><td>"monospace"</td><td>"Devanagari Sangam MN, Devanagari MT"</td></tr>
+<tr><td>font.name-list.monospace.x-ethi</td><td>"Ethiopia Jiret"</td><td>"monospace"</td><td>"Kefa, Abyssinica SIL"</td></tr>
+<tr><td>font.name-list.monospace.x-geor</td><td>"BPG Classic 99U"</td><td>"monospace"</td><td>"Zuzumbo"</td></tr>
+<tr><td>font.name-list.monospace.x-gujr</td><td>"Shruti"</td><td>"monospace"</td><td>"Gujarati Sangam MN, Gujarati MT"</td></tr>
+<tr><td>font.name-list.monospace.x-guru</td><td>"Raavi, Saab"</td><td>"monospace"</td><td>"Gurmukhi MT"</td></tr>
+<tr><td>font.name-list.monospace.x-khmr</td><td>"Khmer OS, Khmer OS System"</td><td>"monospace"</td><td>"Khmer Sangam MN"</td></tr>
+<tr><td>font.name-list.monospace.x-knda</td><td>"Tunga, AksharUnicode"</td><td>"monospace"</td><td>"Kannada Sangam MN, Kedage"</td></tr>
+<tr><td>font.name-list.monospace.x-math</td><td>"Courier New"</td><td>"monospace"</td><td>"Courier"</td></tr>
+<tr><td>font.name-list.monospace.x-mlym</td><td>"Rachana_w01, AnjaliOldLipi, Kartika, ThoolikaUnicode"</td><td>"monospace"</td><td>"Malayalam Sangam MN"</td></tr>
+<tr><td>font.name-list.monospace.x-orya</td><td>"ori1Uni, Kalinga"</td><td>"monospace"</td><td>"Oriya Sangam MN"</td></tr>
+<tr><td>font.name-list.monospace.x-sinh</td><td>"Iskoola Pota, AksharUnicode"</td><td>"monospace"</td><td>"Sinhala Sangam MN"</td></tr>
+<tr><td>font.name-list.monospace.x-tamil</td><td>"Latha"</td><td>"monospace"</td><td>"InaiMathi"</td></tr>
+<tr><td>font.name-list.monospace.x-telu</td><td>"Gautami, Akshar Unicode"</td><td>"monospace"</td><td>"Telugu Sangam MN, Pothana"</td></tr>
+<tr><td>font.name-list.monospace.x-tibt</td><td>"Tibetan Machine Uni, Jomolhari, Microsoft Himalaya"</td><td>"monospace"</td><td>"Kailasa"</td></tr>
+<tr><td>font.name-list.monospace.x-unicode</td><td>"Courier New"</td><td>"monospace"</td><td>"Courier"</td></tr>
+<tr><td>font.name-list.monospace.x-western</td><td>"Courier New"</td><td>"monospace"</td><td>"Courier, Courier New"</td></tr>
+<tr><td>font.name-list.monospace.zh-CN</td><td>"SimSun, MS Song, SimSun-ExtB"</td><td>"monospace"</td><td>"Courier, PingFang SC, STHeiti, Heiti SC"</td></tr>
+<tr><td>font.name-list.monospace.zh-HK</td><td>"MingLiU_HKSCS, Ming(for ISO10646), MingLiU, MingLiU_HKSCS-ExtB"</td><td>"monospace"</td><td>"Courier, PingFang TC, Heiti TC, LiHei Pro"</td></tr>
+<tr><td>font.name-list.monospace.zh-TW</td><td>"MingLiU, MingLiU-ExtB"</td><td>"monospace"</td><td>"Courier, PingFang TC, Heiti TC, LiHei Pro"</td></tr>
+<tr><td>font.name-list.sans-serif.ar</td><td>"Segoe UI, Tahoma, Arial"</td><td>"sans-serif"</td><td>"Geeza Pro"</td></tr>
+<tr><td>font.name-list.sans-serif.el</td><td>"Arial"</td><td>"sans-serif"</td><td>"Helvetica, Lucida Grande"</td></tr>
+<tr><td>font.name-list.sans-serif.he</td><td>"Arial"</td><td>"sans-serif"</td><td>"Arial"</td></tr>
+<tr><td>font.name-list.sans-serif.ja</td><td>"Meiryo, Yu Gothic, MS PGothic, MS Gothic, Yu Mincho, MS PMincho, MS Mincho"</td><td>"sans-serif"</td><td>"Hiragino Kaku Gothic ProN, Hiragino Kaku Gothic Pro"</td></tr>
+<tr><td>font.name-list.sans-serif.ko</td><td>"Gulim, Malgun Gothic"</td><td>"sans-serif"</td><td>"Apple SD Gothic Neo, AppleGothic"</td></tr>
+<tr><td>font.name-list.sans-serif.th</td><td>"Tahoma"</td><td>"sans-serif"</td><td>"Thonburi"</td></tr>
+<tr><td>font.name-list.sans-serif.x-armn</td><td>"Arial AMU"</td><td>"sans-serif"</td><td>"Mshtakan"</td></tr>
+<tr><td>font.name-list.sans-serif.x-beng</td><td>"Vrinda, Akaash, Likhan, Ekushey Punarbhaba"</td><td>"sans-serif"</td><td>"Bangla Sangam MN"</td></tr>
+<tr><td>font.name-list.sans-serif.x-cans</td><td>"Aboriginal Sans"</td><td>"sans-serif"</td><td>"Euphemia UCAS"</td></tr>
+<tr><td>font.name-list.sans-serif.x-cyrillic</td><td>"Arial"</td><td>"sans-serif"</td><td>"Helvetica, Arial"</td></tr>
+<tr><td>font.name-list.sans-serif.x-devanagari</td><td>"Nirmala UI, Mangal"</td><td>"sans-serif"</td><td>"Devanagari Sangam MN, Devanagari MT"</td></tr>
+<tr><td>font.name-list.sans-serif.x-ethi</td><td>"GF Zemen Unicode"</td><td>"sans-serif"</td><td>"Kefa, Abyssinica SIL"</td></tr>
+<tr><td>font.name-list.sans-serif.x-geor</td><td>"BPG Classic 99U"</td><td>"sans-serif"</td><td>"Zuzumbo"</td></tr>
+<tr><td>font.name-list.sans-serif.x-gujr</td><td>"Shruti"</td><td>"sans-serif"</td><td>"Gujarati Sangam MN, Gujarati MT"</td></tr>
+<tr><td>font.name-list.sans-serif.x-guru</td><td>""</td><td>"sans-serif"</td><td>"Gurmukhi MT"</td></tr>
+<tr><td>font.name-list.sans-serif.x-khmr</td><td>"Khmer OS"</td><td>"sans-serif"</td><td>"Khmer Sangam MN"</td></tr>
+<tr><td>font.name-list.sans-serif.x-knda</td><td>"Tunga, AksharUnicode"</td><td>"sans-serif"</td><td>"Kannada Sangam MN, Kedage"</td></tr>
+<tr><td>font.name-list.sans-serif.x-math</td><td>"Arial"</td><td>"sans-serif"</td><td>"Helvetica"</td></tr>
+<tr><td>font.name-list.sans-serif.x-mlym</td><td>"Rachana_w01, AnjaliOldLipi, Kartika, ThoolikaUnicode"</td><td>"sans-serif"</td><td>"Malayalam Sangam MN"</td></tr>
+<tr><td>font.name-list.sans-serif.x-orya</td><td>"ori1Uni, Kalinga"</td><td>"sans-serif"</td><td>"Oriya Sangam MN"</td></tr>
+<tr><td>font.name-list.sans-serif.x-sinh</td><td>"Iskoola Pota, AksharUnicode"</td><td>"sans-serif"</td><td>"Sinhala Sangam MN"</td></tr>
+<tr><td>font.name-list.sans-serif.x-tamil</td><td class="undefined">undefined</td><td>"sans-serif"</td><td>"InaiMathi"</td></tr>
+<tr><td>font.name-list.sans-serif.x-telu</td><td>"Gautami, Akshar Unicode"</td><td>"sans-serif"</td><td>"Telugu Sangam MN, Pothana"</td></tr>
+<tr><td>font.name-list.sans-serif.x-tibt</td><td>"Tibetan Machine Uni, Jomolhari, Microsoft Himalaya"</td><td>"sans-serif"</td><td>"Kailasa"</td></tr>
+<tr><td>font.name-list.sans-serif.x-unicode</td><td>"Arial"</td><td>"sans-serif"</td><td>"Helvetica"</td></tr>
+<tr><td>font.name-list.sans-serif.x-western</td><td>"Arial"</td><td>"sans-serif"</td><td>"Helvetica, Arial"</td></tr>
+<tr><td>font.name-list.sans-serif.zh-CN</td><td>"Microsoft YaHei, SimHei"</td><td>"sans-serif"</td><td>"Helvetica, PingFang SC, STHeiti, Heiti SC"</td></tr>
+<tr><td>font.name-list.sans-serif.zh-HK</td><td>"Arial, MingLiU_HKSCS, Ming(for ISO10646), MingLiU, MingLiU_HKSCS-ExtB"</td><td>"sans-serif"</td><td>"Helvetica, PingFang TC, Heiti TC, LiHei Pro"</td></tr>
+<tr><td>font.name-list.sans-serif.zh-TW</td><td>"Arial, PMingLiU, MingLiU, MingLiU-ExtB"</td><td>"sans-serif"</td><td>"Helvetica, PingFang TC, Heiti TC, LiHei Pro"</td></tr>
+<tr><td>font.name-list.serif.ar</td><td>"Times New Roman"</td><td>"serif"</td><td>"Al Bayan"</td></tr>
+<tr><td>font.name-list.serif.el</td><td>"Times New Roman"</td><td>"serif"</td><td>"Times, Times New Roman"</td></tr>
+<tr><td>font.name-list.serif.he</td><td>"Narkisim, David"</td><td>"serif"</td><td>"Times New Roman"</td></tr>
+<tr><td>font.name-list.serif.ja</td><td>"Yu Mincho, MS PMincho, MS Mincho, Meiryo, Yu Gothic, MS PGothic, MS Gothic"</td><td>"serif"</td><td>"Hiragino Mincho ProN, Hiragino Mincho Pro"</td></tr>
+<tr><td>font.name-list.serif.ko</td><td>"Batang, Gulim"</td><td>"serif"</td><td>"AppleMyungjo"</td></tr>
+<tr><td>font.name-list.serif.th</td><td>"Tahoma"</td><td>"serif"</td><td>"Thonburi"</td></tr>
+<tr><td>font.name-list.serif.x-armn</td><td>"Sylfaen"</td><td>"serif"</td><td>"Mshtakan"</td></tr>
+<tr><td>font.name-list.serif.x-beng</td><td>"Vrinda, Akaash, Likhan, Ekushey Punarbhaba"</td><td>"serif"</td><td>"Bangla MN"</td></tr>
+<tr><td>font.name-list.serif.x-cans</td><td>"Aboriginal Serif, BJCree Uni"</td><td>"serif"</td><td>"Euphemia UCAS"</td></tr>
+<tr><td>font.name-list.serif.x-cyrillic</td><td>"Times New Roman"</td><td>"serif"</td><td>"Times, Times New Roman"</td></tr>
+<tr><td>font.name-list.serif.x-devanagari</td><td>"Kokila, Raghindi"</td><td>"serif"</td><td>"Devanagari MT"</td></tr>
+<tr><td>font.name-list.serif.x-ethi</td><td>"Visual Geez Unicode, Visual Geez Unicode Agazian"</td><td>"serif"</td><td>"Kefa, Abyssinica SIL"</td></tr>
+<tr><td>font.name-list.serif.x-geor</td><td>"Sylfaen, BPG Paata Khutsuri U, TITUS Cyberbit Basic"</td><td>"serif"</td><td>"TITUS Cyberbit Basic"</td></tr>
+<tr><td>font.name-list.serif.x-gujr</td><td>"Shruti"</td><td>"serif"</td><td>"Gujarati MT"</td></tr>
+<tr><td>font.name-list.serif.x-guru</td><td>"Raavi, Saab"</td><td>"serif"</td><td>"Gurmukhi MT"</td></tr>
+<tr><td>font.name-list.serif.x-khmr</td><td>"PhnomPenh OT,.Mondulkiri U GR 1.5, Khmer OS"</td><td>"serif"</td><td>"Khmer MN"</td></tr>
+<tr><td>font.name-list.serif.x-knda</td><td>"Tunga, AksharUnicode"</td><td>"serif"</td><td>"Kannada MN, Kedage"</td></tr>
+<tr><td>font.name-list.serif.x-math</td><td>"Latin Modern Math, STIX Two Math, XITS Math, Cambria Math, Libertinus Math, DejaVu Math TeX Gyre, TeX Gyre Bonum Math, TeX Gyre Pagella Math, TeX Gyre Schola, TeX Gyre Termes Math, STIX Math, Asana Math, STIXGeneral, DejaVu Serif, DejaVu Sans, Times New Roman"</td><td>"Latin Modern Math, STIX Two Math, XITS Math, Cambria Math, Libertinus Math, DejaVu Math TeX Gyre, TeX Gyre Bonum Math, TeX Gyre Pagella Math, TeX Gyre Schola, TeX Gyre Termes Math, STIX Math, Asana Math, STIXGeneral, DejaVu Serif, DejaVu Sans, serif"</td><td>"Latin Modern Math, STIX Two Math, XITS Math, Cambria Math, Libertinus Math, DejaVu Math TeX Gyre, TeX Gyre Bonum Math, TeX Gyre Pagella Math, TeX Gyre Schola, TeX Gyre Termes Math, STIX Math, Asana Math, STIXGeneral, DejaVu Serif, DejaVu Sans, Symbol, Times"</td></tr>
+<tr><td>font.name-list.serif.x-mlym</td><td>"Rachana_w01, AnjaliOldLipi, Kartika, ThoolikaUnicode"</td><td>"serif"</td><td>"Malayalam MN"</td></tr>
+<tr><td>font.name-list.serif.x-orya</td><td>"ori1Uni, Kalinga"</td><td>"serif"</td><td>"Oriya MN"</td></tr>
+<tr><td>font.name-list.serif.x-sinh</td><td>"Iskoola Pota, AksharUnicode"</td><td>"serif"</td><td>"Sinhala MN"</td></tr>
+<tr><td>font.name-list.serif.x-tamil</td><td>"Latha"</td><td>"serif"</td><td>"InaiMathi"</td></tr>
+<tr><td>font.name-list.serif.x-telu</td><td>"Gautami, Akshar Unicode"</td><td>"serif"</td><td>"Telugu MN, Pothana"</td></tr>
+<tr><td>font.name-list.serif.x-tibt</td><td>"Tibetan Machine Uni, Jomolhari, Microsoft Himalaya"</td><td>"serif"</td><td>"Kailasa"</td></tr>
+<tr><td>font.name-list.serif.x-unicode</td><td>"Times New Roman"</td><td>"serif"</td><td>"Times"</td></tr>
+<tr><td>font.name-list.serif.x-western</td><td>"Times New Roman"</td><td>"serif"</td><td>"Times, Times New Roman"</td></tr>
+<tr><td>font.name-list.serif.zh-CN</td><td>"SimSun, MS Song, SimSun-ExtB"</td><td>"serif"</td><td>"Times, STSong, Heiti SC"</td></tr>
+<tr><td>font.name-list.serif.zh-HK</td><td>"Times New Roman, MingLiu_HKSCS, Ming(for ISO10646), MingLiU, MingLiU_HKSCS-ExtB"</td><td>"serif"</td><td>"Times, LiSong Pro, Heiti TC"</td></tr>
+<tr><td>font.name-list.serif.zh-TW</td><td>"Times New Roman, PMingLiu, MingLiU, MingLiU-ExtB"</td><td>"serif"</td><td>"Times, LiSong Pro, Heiti TC"</td></tr>
+<tr><td>font.preload-names-list</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Hiragino Kaku Gothic ProN,Hiragino Mincho ProN,STSong"</td></tr>
+<tr><td>font.single-face-list</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>"Osaka-Mono:Osaka"</td></tr>
+<tr><td>font.size.fixed.ar</td><td>13</td><td>12</td><td>13</td></tr>
+<tr><td>font.size.fixed.el</td><td>13</td><td>12</td><td>13</td></tr>
+<tr><td>font.size.fixed.he</td><td>13</td><td>12</td><td>13</td></tr>
+<tr><td>font.size.fixed.x-cyrillic</td><td>13</td><td>12</td><td>13</td></tr>
+<tr><td>font.size.fixed.x-unicode</td><td>13</td><td>12</td><td>13</td></tr>
+<tr><td>font.size.fixed.x-western</td><td>13</td><td>12</td><td>13</td></tr>
+<tr><td>font.weight-override.AppleSDGothicNeo-Heavy</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>900</td></tr>
+<tr><td>font.weight-override.AppleSDGothicNeo-Light</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>300</td></tr>
+<tr><td>font.weight-override.AppleSDGothicNeo-Thin</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>100</td></tr>
+<tr><td>font.weight-override.AppleSDGothicNeo-UltraLight</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>200</td></tr>
+<tr><td>font.weight-override.Avenir-Black</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>900</td></tr>
+<tr><td>font.weight-override.Avenir-BlackOblique</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>900</td></tr>
+<tr><td>font.weight-override.Avenir-Book</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>300</td></tr>
+<tr><td>font.weight-override.Avenir-BookOblique</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>300</td></tr>
+<tr><td>font.weight-override.Avenir-MediumOblique</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>500</td></tr>
+<tr><td>font.weight-override.AvenirNextCondensed-MediumItalic</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>500</td></tr>
+<tr><td>font.weight-override.AvenirNext-MediumItalic</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>500</td></tr>
+<tr><td>font.weight-override.HelveticaNeue-Light</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>300</td></tr>
+<tr><td>font.weight-override.HelveticaNeue-LightItalic</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>300</td></tr>
+<tr><td>font.weight-override.HelveticaNeue-MediumItalic</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>500</td></tr>
+<tr><td>full-screen-api.transition-duration.enter</td><td>"200 200"</td><td>"0 0"</td><td>"200 200"</td></tr>
+<tr><td>full-screen-api.transition-duration.leave</td><td>"200 200"</td><td>"0 0"</td><td>"200 200"</td></tr>
+<tr><td>general.autoScroll</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>geo.provider.ms-windows-location</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>geo.provider.use_corelocation</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>false</td></tr>
+<tr><td>geo.provider.use_gpsd</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.canvas.azure.accelerated</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>true</td></tr>
+<tr><td>gfx.canvas.azure.backends</td><td>"direct2d1.1,skia,cairo"</td><td>"skia"</td><td>"skia"</td></tr>
+<tr><td>gfx.content.azure.backends</td><td>"direct2d1.1,skia,cairo"</td><td>"skia"</td><td>"skia"</td></tr>
+<tr><td>gfx.direct2d.disabled</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.direct2d.force-enabled</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.direct3d11.break-on-error</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.direct3d11.enable-debug-layer</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_loader.delay</td><td>120000</td><td>8000</td><td>8000</td></tr>
+<tr><td>gfx.font_loader.interval</td><td>1000</td><td>50</td><td>50</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.cleartype_level</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.enhanced_contrast</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.force_gdi_classic_for_families</td><td>"Arial,Consolas,Courier New,Microsoft Sans Serif,Segoe UI,Tahoma,Trebuchet MS,Verdana"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.force_gdi_classic_max_size</td><td>15</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.gamma</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.pixel_structure</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.cleartype_params.rendering_mode</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.directwrite.force-enabled</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.directwrite.use_gdi_table_loading</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.font_rendering.fontconfig.max_generic_substitutions</td><td class="undefined">undefined</td><td>3</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.hidpi.enabled</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>2</td></tr>
+<tr><td>gfx.webrender.force-angle</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>gfx.xrender.enabled</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>gl.multithreaded</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>true</td></tr>
+<tr><td>helpers.global_mailcap_file</td><td class="undefined">undefined</td><td>"/etc/mailcap"</td><td class="undefined">undefined</td></tr>
+<tr><td>helpers.global_mime_types_file</td><td class="undefined">undefined</td><td>"/etc/mime.types"</td><td class="undefined">undefined</td></tr>
+<tr><td>helpers.private_mailcap_file</td><td class="undefined">undefined</td><td>"~/.mailcap"</td><td class="undefined">undefined</td></tr>
+<tr><td>helpers.private_mime_types_file</td><td class="undefined">undefined</td><td>"~/.mime.types"</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.ime.use_simple_context_on_password_field</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.imm.composition_font</td><td>""</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.imm.composition_font.japanist_2003</td><td>"MS PGothic"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.imm.japanese.assume_active_tip_name_as</td><td>""</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.imm.vertical_writing.always_assume_not_supported</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.keyboard.per_window_layout</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.associate_imc_only_when_imm_ime_is_active</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.enable</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.atok.create_native_caret</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.atok.do_not_return_no_layout_error_of_composition_string</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.free_chang_jie.do_not_return_no_layout_error</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.ms_japanese_ime.do_not_return_no_layout_error_at_caret</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.ms_japanese_ime.do_not_return_no_layout_error_at_first_char</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.ms_simplified_chinese.do_not_return_no_layout_error</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.ms_simplified_chinese.query_insert_result</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.ms_traditional_chinese.do_not_return_no_layout_error</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.hack.ms_traditional_chinese.query_insert_result</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>intl.tsf.support_imm</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>layers.enable-tiles</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>layers.gpu-process.allow-software</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>layers.gpu-process.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>layers.mlgpu.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>layers.mlgpu.enable-on-windows7</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>layers.omtp.enabled</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>layers.prefer-opengl</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>layers.shared-buffer-provider.enabled</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>layers.tile-height</td><td>256</td><td>256</td><td>512</td></tr>
+<tr><td>layers.tiles.edge-padding</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>false</td></tr>
+<tr><td>layers.tile-width</td><td>256</td><td>256</td><td>512</td></tr>
+<tr><td>layout.css.osx-font-smoothing.enabled</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>layout.word_select.eat_space_to_next_word</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>media.apple.mp3.enabled</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>true</td></tr>
+<tr><td>media.apple.mp4.enabled</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>true</td></tr>
+<tr><td>media.eme.enabled</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>media.ffmpeg.enabled</td><td class="undefined">undefined</td><td>true</td><td>false</td></tr>
+<tr><td>media.getusermedia.playout_delay</td><td>40</td><td>50</td><td>10</td></tr>
+<tr><td>media.gmp.insecure.allow</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>media.gpu-process-decoder</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.libavcodec.allow-obsolete</td><td class="undefined">undefined</td><td>false</td><td>false</td></tr>
+<tr><td>media.mediasource.webm.enabled</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>media.peerconnection.capture_delay</td><td>50</td><td>70</td><td>50</td></tr>
+<tr><td>media.wmf.allow-unsupported-resolutions</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.amd.vp9.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.deblacklisting-for-telemetry-in-gpu-process</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.decoder.thread-count</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.disable-d3d11-for-dlls</td><td>"igd11dxva64.dll: 20.19.15.4463, 20.19.15.4454, 20.19.15.4444, 20.19.15.4416, 20.19.15.4404, 20.19.15.4390, 20.19.15.4380, 20.19.15.4377, 20.19.15.4364, 20.19.15.4360, 20.19.15.4352, 20.19.15.4331, 20.19.15.4326, 20.19.15.4300; igd10iumd32.dll: 20.19.15.4444, 20.19.15.4424, 20.19.15.4409, 20.19.15.4390, 20.19.15.4380, 20.19.15.4360, 10.18.10.4358, 20.19.15.4331, 20.19.15.4312, 20.19.15.4300, 10.18.15.4281, 10.18.15.4279, 10.18.10.4276, 10.18.15.4268, 10.18.15.4256, 10.18.10.4252, 10.18.15.4248, 10.18.14.4112, 10.18.10.3958, 10.18.10.3496, 10.18.10.3431, 10.18.10.3412, 10.18.10.3355, 9.18.10.3234, 9.18.10.3071, 9.18.10.3055, 9.18.10.3006; igd10umd32.dll: 9.17.10.4229, 9.17.10.3040, 9.17.10.2884, 9.17.10.2857, 8.15.10.2274, 8.15.10.2272, 8.15.10.2246, 8.15.10.1840, 8.15.10.1808; igd10umd64.dll: 9.17.10.4229, 9.17.10.2884, 9.17.10.2857, 10.18.10.3496; isonyvideoprocessor.dll: 4.1.2247.8090, 4.1.2153.6200; tosqep.dll: 1.2.15.526, 1.1.12.201, 1.0.11.318, 1.0.11.215, 1.0.10.1224; tosqep64.dll: 1.1.12.201, 1.0.11.215; nvwgf2um.dll: 22.21.13.8253, 22.21.13.8233, 22.21.13.8205, 22.21.13.8189, 22.21.13.8178, 22.21.13.8165, 21.21.13.7892, 21.21.13.7878, 21.21.13.7866, 21.21.13.7849, 21.21.13.7654, 21.21.13.7653, 21.21.13.7633, 21.21.13.7619, 21.21.13.7563, 21.21.13.7306, 21.21.13.7290, 21.21.13.7270, 21.21.13.7254, 21.21.13.6939, 21.21.13.6926, 21.21.13.6909, 21.21.13.4201, 21.21.13.4200, 10.18.13.6881, 10.18.13.6839, 10.18.13.6510, 10.18.13.6472, 10.18.13.6143, 10.18.13.5946, 10.18.13.5923, 10.18.13.5921, 10.18.13.5891, 10.18.13.5887, 10.18.13.5582, 10.18.13.5445, 10.18.13.5382, 10.18.13.5362, 9.18.13.4788, 9.18.13.4752, 9.18.13.4725, 9.18.13.4709, 9.18.13.4195, 9.18.13.4192, 9.18.13.4144, 9.18.13.4052, 9.18.13.3788, 9.18.13.3523, 9.18.13.3235, 9.18.13.3165, 9.18.13.2723, 9.18.13.2702, 9.18.13.1422, 9.18.13.1407, 9.18.13.1106, 9.18.13.546; atidxx32.dll: 21.19.151.3, 21.19.142.257, 21.19.137.514, 21.19.137.1, 21.19.134.1, 21.19.128.7, 21.19.128.4, 20.19.0.32837, 20.19.0.32832, 8.17.10.682, 8.17.10.671, 8.17.10.661, 8.17.10.648, 8.17.10.644, 8.17.10.625, 8.17.10.605, 8.17.10.581, 8.17.10.569, 8.17.10.560, 8.17.10.545, 8.17.10.539, 8.17.10.531, 8.17.10.525, 8.17.10.520, 8.17.10.519, 8.17.10.514, 8.17.10.511, 8.17.10.494, 8.17.10.489, 8.17.10.483, 8.17.10.453, 8.17.10.451, 8.17.10.441, 8.17.10.436, 8.17.10.432, 8.17.10.425, 8.17.10.418, 8.17.10.414, 8.17.10.401, 8.17.10.395, 8.17.10.385, 8.17.10.378, 8.17.10.362, 8.17.10.355, 8.17.10.342, 8.17.10.331, 8.17.10.318, 8.17.10.310, 8.17.10.286, 8.17.10.269, 8.17.10.261, 8.17.10.247, 8.17.10.240, 8.15.10.212; atidxx64.dll: 21.19.151.3, 21.19.142.257, 21.19.137.514, 21.19.137.1, 21.19.134.1, 21.19.128.7, 21.19.128.4, 20.19.0.32832, 8.17.10.682, 8.17.10.661, 8.17.10.644, 8.17.10.625; nvumdshim.dll: 10.18.13.6822"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.disable-d3d9-for-dlls</td><td>"igdumd64.dll: 8.15.10.2189, 8.15.10.2119, 8.15.10.2104, 8.15.10.2102, 8.771.1.0; atiumd64.dll: 7.14.10.833, 7.14.10.867, 7.14.10.885, 7.14.10.903, 7.14.10.911, 8.14.10.768, 9.14.10.1001, 9.14.10.1017, 9.14.10.1080, 9.14.10.1128, 9.14.10.1162, 9.14.10.1171, 9.14.10.1183, 9.14.10.1197, 9.14.10.945, 9.14.10.972, 9.14.10.984, 9.14.10.996"</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.dxva.d3d11.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.dxva.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.dxva.max-videos</td><td>8</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.low-latency.enabled</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.play-stand-alone</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.skip-blacklist</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.use-nv12-format</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.use-sync-texture</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>media.wmf.vp9.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>middlemouse.paste</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>middlemouse.scrollbarPosition</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>mousebutton.4th.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>mousebutton.5th.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>mousewheel.debug.make_window_under_cursor_foreground</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>mousewheel.emulate_at_wm_scroll</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>mousewheel.enable_pixel_scrolling</td><td>true</td><td class="undefined">undefined</td><td>true</td></tr>
+<tr><td>mousewheel.system_scroll_override_on_root_content.enabled</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>mousewheel.system_settings_cache.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>mousewheel.system_settings_cache.force_enabled</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>mousewheel.with_control.action.override_x</td><td>-1</td><td>-1</td><td>0</td></tr>
+<tr><td>mousewheel.with_meta.action</td><td>1</td><td>1</td><td>3</td></tr>
+<tr><td>mousewheel.with_meta.action.override_x</td><td>-1</td><td>-1</td><td>0</td></tr>
+<tr><td>mousewheel.with_shift.action</td><td>4</td><td>4</td><td>1</td></tr>
+<tr><td>network.auth.use-sspi</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>network.notify.IPv6</td><td>false</td><td>true</td><td>true</td></tr>
+<tr><td>network.protocol-handler.external.help</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>false</td></tr>
+<tr><td>network.protocol-handler.external.ms-windows-store</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>network.protocol-handler.warn-external.file</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>network.protocol-handler.warn-external.ms-windows-store</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>network.tcp.keepalive.probe_count</td><td class="undefined">undefined</td><td>4</td><td class="undefined">undefined</td></tr>
+<tr><td>network.tcp.keepalive.retry_interval</td><td>1</td><td>1</td><td class="undefined">undefined</td></tr>
+<tr><td>plugin.mousewheel.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>plugin.scan.plid.all</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>print.extend_native_print_dialog</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>print.print_color</td><td class="undefined">undefined</td><td>true</td><td class="undefined">undefined</td></tr>
+<tr><td>print.print_extra_margin</td><td>90</td><td>0</td><td>90</td></tr>
+<tr><td>print.print_landscape</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>print.print_paper_size</td><td class="undefined">undefined</td><td>0</td><td class="undefined">undefined</td></tr>
+<tr><td>print.print_reversed</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>print.printer_list</td><td class="undefined">undefined</td><td>""</td><td class="undefined">undefined</td></tr>
+<tr><td>print.use_simplify_page</td><td>true</td><td>false</td><td>true</td></tr>
+<tr><td>security.sandbox.content.level</td><td>4</td><td>3</td><td>3</td></tr>
+<tr><td>security.sandbox.content.read_path_whitelist</td><td class="undefined">undefined</td><td>""</td><td class="undefined">undefined</td></tr>
+<tr><td>security.sandbox.content.syscall_whitelist</td><td class="undefined">undefined</td><td>""</td><td class="undefined">undefined</td></tr>
+<tr><td>security.sandbox.content.tempDirSuffix</td><td>""</td><td class="undefined">undefined</td><td>""</td></tr>
+<tr><td>security.sandbox.content.write_path_whitelist</td><td class="undefined">undefined</td><td>""</td><td class="undefined">undefined</td></tr>
+<tr><td>security.sandbox.gpu.level</td><td>0</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>security.sandbox.logging.enabled</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>security.sandbox.windows.log.stackTraceDepth</td><td>0</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>slider.snapMultiplier</td><td>6</td><td>0</td><td>0</td></tr>
+<tr><td>ui.allow_platform_file_picker</td><td class="undefined">undefined</td><td>true</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.elantech_gesture_hacks.enabled</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.key.accelKey</td><td>17</td><td>17</td><td>224</td></tr>
+<tr><td>ui.key.chromeAccess</td><td>4</td><td>4</td><td>2</td></tr>
+<tr><td>ui.key.contentAccess</td><td>5</td><td>5</td><td>6</td></tr>
+<tr><td>ui.key.menuAccessKey</td><td>18</td><td>18</td><td>0</td></tr>
+<tr><td>ui.key.menuAccessKeyFocuses</td><td>true</td><td>true</td><td>false</td></tr>
+<tr><td>ui.key.saveLink.shift</td><td>true</td><td>true</td><td>false</td></tr>
+<tr><td>ui.osk.debug.keyboardDisplayReason</td><td>""</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.osk.detect_physical_keyboard</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.osk.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.osk.on_screen_keyboard_path</td><td>""</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.osk.require_win10</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.panel.default_level_parent</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>ui.plugin.cancel_composition_at_input_source_changed</td><td class="undefined">undefined</td><td class="undefined">undefined</td><td>false</td></tr>
+<tr><td>ui.scrollToClick</td><td>0</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.trackpoint_hack.enabled</td><td>-1</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>ui.window_class_override</td><td>""</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>webgl.1.allow-core-profiles</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>webgl.angle.force-d3d11</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>webgl.angle.force-warp</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>webgl.angle.try-d3d11</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>webgl.dxgl.enabled</td><td>true</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>webgl.dxgl.needs-finish</td><td>false</td><td class="undefined">undefined</td><td class="undefined">undefined</td></tr>
+<tr><td>widget.chrome.allow-gtk-dark-theme</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+<tr><td>widget.content.allow-gtk-dark-theme</td><td class="undefined">undefined</td><td>false</td><td class="undefined">undefined</td></tr>
+</tbody></table></body></html>
