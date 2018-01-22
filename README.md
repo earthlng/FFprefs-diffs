@@ -5,19 +5,13 @@ ___
 
 ## Changelog
 
+* [57.0 vs 58.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v57.0-vs-v58.0.log.js "57.0 vs 58.0") - 130 diffs ( 63 new, 42 gone, 25 different )
+
 * [56.0 vs 57.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v56.0-vs-v57.0.log.js "56.0 vs 57.0") - 161 diffs ( 80 new, 33 gone, 48 different )
 
 * [56.0 vs 57.0b3](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v56.0-vs-v57.0b3.log.js "56.0 vs 57.0b3") - 157 diffs ( 76 new, 29 gone, 52 different )
 
 * [55.0 vs 56.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v55.0-vs-v56.0.log.js "55.0 vs 56.0") - 150 diffs ( 91 new, 28 gone, 31 different )
-
-* 55.0.1 vs 55.0.2 vs 55.0.3 - no changes
-
-* 55.0 vs 55.0.1
-```js
-// changed in v55.0.1:
-pref("network.predictor.enable-prefetch", false); // prev: true
-```
 
 * [54.0 vs 55.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v54.0-vs-v55.0.log.js "54.0 vs 55.0") - 432 diffs ( 207 new, 66 gone, 159 different )
 
@@ -31,6 +25,8 @@ pref("network.predictor.enable-prefetch", false); // prev: true
 
 ### ESR
 
+* [52.5.0esr vs 52.6.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.5.0esr-vs-v52.6.0esr.log.js "52.5.0esr vs 52.6.0esr") - 5 diffs ( 1 new, 1 gone, 3 different )
+
 * 52.4.0esr vs 52.5.0esr - no changes
 
 * 52.3.0esr vs 52.4.0esr - no changes
@@ -43,6 +39,7 @@ pref("network.predictor.enable-prefetch", false); // prev: true
 
 ### Windows vs Linux vs MacOS
 
+* [58.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v58.0.html)
 * [57.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v57.0.html)
 * [56.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v56.0.html)
 * [55.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v55.0.html)
@@ -51,25 +48,16 @@ pref("network.predictor.enable-prefetch", false); // prev: true
 
 ___
 
-_The diffs are created using 64-bit Firefoxes on Windows,  
+_The diffs are created using 64-bit Firefoxes (en-US) on Windows,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by comparing the following files in the order that Firefox applies them:_
 
-> 1. omni.ja/greprefs.js
-> 2. omni.ja/defaults/pref/services-sync.js
-> 3. browser/omni.ja/defaults/preferences/webide-prefs.js
-> 4. browser/omni.ja/defaults/preferences/firefox.js
-> 5. browser/omni.ja/defaults/preferences/firefox-l10n.js
-> 6. browser/omni.ja/defaults/preferences/firefox-branding.js
-> 7. browser/omni.ja/defaults/preferences/devtools.js
-
-_starting with Firefox 54.0beta1 two new files were added/split-out ([marionette.js](https://bugzilla.mozilla.org/show_bug.cgi?id=1350887) and [debugger.js](https://bugzilla.mozilla.org/show_bug.cgi?id=1328693)). new order:_
-
-> 1. omni.ja/greprefs.js
-> 2. omni.ja/defaults/pref/services-sync.js
-> 3. omni.ja/defaults/pref/marionette.js
-> 4. browser/omni.ja/defaults/preferences/webide-prefs.js
-> 5. browser/omni.ja/defaults/preferences/firefox.js
-> 6. browser/omni.ja/defaults/preferences/firefox-l10n.js
-> 7. browser/omni.ja/defaults/preferences/firefox-branding.js
-> 8. browser/omni.ja/defaults/preferences/devtools.js
-> 9. browser/omni.ja/defaults/preferences/debugger.js
+> 01. omni.ja/greprefs.js
+> 02. omni.ja/defaults/pref/services-sync.js
+> 03. omni.ja/defaults/pref/marionette.js (since v54.0)
+> 04. browser/omni.ja/defaults/preferences/webide-prefs.js
+> 05. browser/omni.ja/defaults/preferences/firefox.js
+> 06. browser/omni.ja/defaults/preferences/firefox-l10n.js
+> 07. browser/omni.ja/defaults/preferences/firefox-branding.js
+> 08. browser/omni.ja/defaults/preferences/devtools.js
+> 09. browser/omni.ja/defaults/preferences/devtools-startup-prefs.js (since v57.0)
+> 10. browser/omni.ja/defaults/preferences/debugger.js (since v54.0)
