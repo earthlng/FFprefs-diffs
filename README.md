@@ -5,6 +5,8 @@ ___
 
 ## Changelog
 
+* [58.0 vs 59.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v58.0-vs-v59.0.log.js "58.0 vs 59.0") - 200 diffs ( 88 new, 92 gone, 20 different )
+
 * [57.0 vs 58.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v57.0-vs-v58.0.log.js "57.0 vs 58.0") - 130 diffs ( 63 new, 42 gone, 25 different )
 
 * [56.0 vs 57.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v56.0-vs-v57.0.log.js "56.0 vs 57.0") - 161 diffs ( 80 new, 33 gone, 48 different )
@@ -23,6 +25,8 @@ ___
 
 ### ESR
 
+* [52.6.0esr vs 52.7.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.6.0esr-vs-v52.7.0esr.log.js "52.6.0esr vs 52.7.0esr") - 2 diffs ( 0 new, 1 gone, 1 different )
+
 * [52.5.0esr vs 52.6.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.5.0esr-vs-v52.6.0esr.log.js "52.5.0esr vs 52.6.0esr") - 5 diffs ( 1 new, 1 gone, 3 different )
 
 * 52.4.0esr vs 52.5.0esr - no changes
@@ -37,9 +41,9 @@ ___
 
 ### Windows vs Linux vs MacOS
 
+* [59.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v59.0.html)
 * [58.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v58.0.html)
 * [57.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v57.0.html)
-* [56.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v56.0.html)
 * [older versions](https://earthlng.github.io/FFprefs-diffs/index.html)
 
 ___
