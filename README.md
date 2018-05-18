@@ -33,6 +33,8 @@ ___
 
 ### ESR
 
+<details><summary>ESR52.x (click to expand)</summary><p>
+
 * 52.7.0esr vs 52.8.0esr - no changes
 
 * [52.6.0esr vs 52.7.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.6.0esr-vs-v52.7.0esr.log.js "52.6.0esr vs 52.7.0esr") - 2 diffs ( 0 new, 1 gone, 1 different )
@@ -49,6 +51,7 @@ ___
   
 * [52.0esr vs 52.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.0esr-vs-v52.1.0esr.log.js "52.0esr vs 52.1.0esr") - 2 diffs ( 0 new, 0 gone, 2 different )
 
+</p></details>
 
 ### Windows vs Linux vs MacOS
 
