@@ -1,9 +1,16 @@
 # FFprefs-diffs
-listing changes in Firefox default preferences
+listing changes in Firefox default preferences. The diffs are created using 64-bit Firefoxes (en-US) on Windows.
+
+Note: Until now all the diffs were created based solely on FF's default preferences files and therefore didn't include prefs
+set by system addons or other components. 59.0 vs 60.0 is the 1st diff which includes changes to those prefs as well.
+
+OS-diffs will continue to be based on the default preferences files only.
 
 ___
 
 ## Changelog
+
+* [59.0 vs 60.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v59.0-vs-v60.0.log.js "59.0 vs 60.0") - 168 diffs ( 98 new, 53 gone, 17 different )
 
 * [58.0 vs 59.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v58.0-vs-v59.0.log.js "58.0 vs 59.0") - 200 diffs ( 88 new, 92 gone, 20 different )
 
@@ -23,6 +30,7 @@ ___
 
 * [older versions](https://github.com/earthlng/FFprefs-diffs/tree/master/diffs)
 
+
 ### ESR
 
 * 52.7.0esr vs 52.8.0esr - no changes
@@ -41,6 +49,7 @@ ___
   
 * [52.0esr vs 52.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.0esr-vs-v52.1.0esr.log.js "52.0esr vs 52.1.0esr") - 2 diffs ( 0 new, 0 gone, 2 different )
 
+
 ### Windows vs Linux vs MacOS
 
 * [59.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v59.0.html)
@@ -48,18 +57,3 @@ ___
 * [57.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v57.0.html)
 * [older versions](https://earthlng.github.io/FFprefs-diffs/index.html)
 
-___
-
-_The diffs are created using 64-bit Firefoxes (en-US) on Windows,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by comparing the following files in the order that Firefox applies them:_
-
-> 01. omni.ja/greprefs.js
-> 02. omni.ja/defaults/pref/services-sync.js
-> 03. omni.ja/defaults/pref/marionette.js (since v54.0)
-> 04. browser/omni.ja/defaults/preferences/webide-prefs.js
-> 05. browser/omni.ja/defaults/preferences/firefox.js
-> 06. browser/omni.ja/defaults/preferences/firefox-l10n.js
-> 07. browser/omni.ja/defaults/preferences/firefox-branding.js
-> 08. browser/omni.ja/defaults/preferences/devtools.js
-> 09. browser/omni.ja/defaults/preferences/devtools-startup-prefs.js (since v57.0)
-> 10. browser/omni.ja/defaults/preferences/debugger.js (since v54.0)
