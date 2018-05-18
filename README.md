@@ -55,8 +55,8 @@ ___
 
 ### Windows vs Linux vs MacOS
 
+* [60.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v60.0.html)
 * [59.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v59.0.html)
 * [58.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v58.0.html)
-* [57.0 - Windows vs Linux vs MacOS](https://earthlng.github.io/FFprefs-diffs/Firefox-v57.0.html)
 * [older versions](https://earthlng.github.io/FFprefs-diffs/index.html)
 
