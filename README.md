@@ -4,7 +4,7 @@ listing changes in Firefox default preferences. The diffs are created using 64-b
 Note: Until now all the diffs were created based solely on FF's default preferences files and therefore didn't include prefs
 set by system addons or other components. 59.0 vs 60.0 is the 1st diff which includes changes to those prefs as well.
 
-OS-diffs will continue to be based on the default preferences files only.
+ESR & OS diffs will continue to be based on the default preferences files only.
 
 ___
 
@@ -24,6 +24,14 @@ ___
 
 
 ### ESR
+
+<details><summary>ESR60.x (click to expand)</summary><p>
+
+* [60.0esr vs 60.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v60.0esr-vs-v60.1.0esr.log.js "60.0esr vs 60.1.0esr") - 3 diffs ( 0 new, 1 gone, 2 different )
+
+* [52.9.0esr vs 60.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.9.0esr-vs-v60.0esr.log.js "52.9.0esr vs 60.0esr") - 1203 diffs ( 674 new, 322 gone, 207 different )
+
+</p></details>
 
 <details><summary>ESR52.x (click to expand)</summary><p>
 
