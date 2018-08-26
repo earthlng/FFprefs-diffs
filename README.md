@@ -11,6 +11,64 @@ ___
 
 * [60.0 vs 61.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v60.0-vs-v61.0.log.js "60.0 vs 61.0") - 211 diffs ( 90 new, 101 gone, 20 different )
 
+<details><summary>prefs set by System Addons or other components in FF60 which were not included in any previous diffs</summary><p>
+
+```js
+pref("app.shield.optoutstudies.enabled", true);
+pref("browser.newtabpage.activity-stream.collapseTopSites", false);
+pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://www.facebook.com/,https://www.wikipedia.org/,https://www.reddit.com/,https://www.amazon.com/,https://twitter.com/");
+pref("browser.newtabpage.activity-stream.disableSnippets", false);
+pref("browser.newtabpage.activity-stream.feeds.favicon", true);
+pref("browser.newtabpage.activity-stream.feeds.migration", true);
+pref("browser.newtabpage.activity-stream.feeds.newtabinit", true);
+pref("browser.newtabpage.activity-stream.feeds.places", true);
+pref("browser.newtabpage.activity-stream.feeds.prefs", true);
+pref("browser.newtabpage.activity-stream.feeds.section.highlights", true);
+pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+pref("browser.newtabpage.activity-stream.feeds.section.topstories.options", "{\"api_key_pref\":\"extensions.pocket.oAuthConsumerKey\",\"hidden\":true,\"provider_description\":\"pocket_description\",\"provider_icon\":\"pocket\",\"provider_name\":\"Pocket\",\"read_more_endpoint\":\"https://getpocket.com/explore/trending?src=fx_new_tab\",\"stories_endpoint\":\"https://getpocket.cdn.mozilla.net/v3/firefox/global-recs?version=3&consumer_key=$apiKey&locale_lang=en-US&feed_variant=default_spocs_off\",\"stories_referrer\":\"https://getpocket.com/recommendations\",\"privacy_notice_link\":\"https://www.mozilla.org/privacy/firefox/#suggest-relevant-content\",\"disclaimer_link\":\"https://getpocket.com/firefox/new_tab_learn_more\",\"topics_endpoint\":\"https://getpocket.cdn.mozilla.net/v3/firefox/trending-topics?version=2&consumer_key=$apiKey&locale_lang=en-US\",\"show_spocs\":false,\"personalized\":true}");
+pref("browser.newtabpage.activity-stream.feeds.sections", true);
+pref("browser.newtabpage.activity-stream.feeds.snippets", true);
+pref("browser.newtabpage.activity-stream.feeds.systemtick", true);
+pref("browser.newtabpage.activity-stream.feeds.telemetry", true);
+pref("browser.newtabpage.activity-stream.feeds.topsites", true);
+pref("browser.newtabpage.activity-stream.filterAdult", true);
+pref("browser.newtabpage.activity-stream.migrationExpired", false);
+pref("browser.newtabpage.activity-stream.migrationLastShownDate", 0);
+pref("browser.newtabpage.activity-stream.migrationRemainingDays", 4);
+pref("browser.newtabpage.activity-stream.section.highlights.collapsed", false);
+pref("browser.newtabpage.activity-stream.section.topstories.collapsed", false);
+pref("browser.newtabpage.activity-stream.section.topstories.showDisclaimer", true);
+pref("browser.newtabpage.activity-stream.showSearch", true);
+pref("browser.newtabpage.activity-stream.showSponsored", true);
+pref("browser.newtabpage.activity-stream.showTopSites", true);
+pref("browser.newtabpage.activity-stream.telemetry", true);
+pref("browser.newtabpage.activity-stream.telemetry.ping.endpoint", "https://tiles.services.mozilla.com/v4/links/activity-stream");
+pref("browser.newtabpage.activity-stream.tippyTop.service.endpoint", "https://activity-stream-icons.services.mozilla.com/v1/icons.json.br");
+pref("extensions.pocket.api", "api.getpocket.com");
+pref("extensions.pocket.oAuthConsumerKey", "40249-e88c401e1b1f2242d9e441c4");
+pref("extensions.pocket.site", "getpocket.com");
+pref("extensions.webcompat.perform_ua_overrides", true);
+pref("pdfjs.cursorToolOnLoad", 0);
+pref("pdfjs.defaultZoomValue", "");
+pref("pdfjs.disableAutoFetch", false);
+pref("pdfjs.disableFontFace", false);
+pref("pdfjs.disablePageLabels", false);
+pref("pdfjs.disablePageMode", false);
+pref("pdfjs.disableRange", false);
+pref("pdfjs.disableStream", false);
+pref("pdfjs.enablePrintAutoRotate", false);
+pref("pdfjs.enableWebGL", false);
+pref("pdfjs.externalLinkTarget", 0);
+pref("pdfjs.pdfBugEnabled", false);
+pref("pdfjs.renderer", "canvas");
+pref("pdfjs.renderInteractiveForms", false);
+pref("pdfjs.showPreviousViewOnLoad", true);
+pref("pdfjs.sidebarViewOnLoad", 0);
+pref("pdfjs.useOnlyCssZoom", false);
+```
+
+</p></details>
+
 * [59.0 vs 60.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v59.0-vs-v60.0.log.js "59.0 vs 60.0") - 168 diffs ( 98 new, 53 gone, 17 different )
 
 * [58.0 vs 59.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v58.0-vs-v59.0.log.js "58.0 vs 59.0") - 200 diffs ( 88 new, 92 gone, 20 different )
