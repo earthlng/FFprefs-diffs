@@ -73,12 +73,6 @@ pref("pdfjs.useOnlyCssZoom", false);
 
 * [59.0 vs 60.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v59.0-vs-v60.0.log.js "59.0 vs 60.0") - 168 diffs ( 98 new, 53 gone, 17 different )
 
-* [58.0 vs 59.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v58.0-vs-v59.0.log.js "58.0 vs 59.0") - 200 diffs ( 88 new, 92 gone, 20 different )
-
-* [57.0 vs 58.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v57.0-vs-v58.0.log.js "57.0 vs 58.0") - 130 diffs ( 63 new, 42 gone, 25 different )
-
-* [56.0 vs 57.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/5x/diff-v56.0-vs-v57.0.log.js "56.0 vs 57.0") - 161 diffs ( 80 new, 33 gone, 48 different )
-
 * [older versions](https://github.com/earthlng/FFprefs-diffs/tree/master/diffs)
 
 
