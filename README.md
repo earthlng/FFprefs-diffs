@@ -9,6 +9,8 @@ ___
 
 ## Changelog
 
+* [61.0 vs 62.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v61.0-vs-v62.0.log.js "61.0 vs 62.0") - 120 diffs ( 51 new, 43 gone, 26 different )
+
 * [60.0 vs 61.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v60.0-vs-v61.0.log.js "60.0 vs 61.0") - 211 diffs ( 90 new, 101 gone, 20 different )
 
 <details><summary>prefs set by System Addons or other components in FF60 which were not included in any previous diffs</summary><p>
