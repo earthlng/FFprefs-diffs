@@ -9,6 +9,8 @@ ___
 
 ## Changelog
 
+* [62.0 vs 63.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v62.0-vs-v63.0.log.js "62.0 vs 63.0") - 199 diffs ( 122 new, 56 gone, 21 different )
+
 * [61.0 vs 62.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v61.0-vs-v62.0.log.js "61.0 vs 62.0") - 120 diffs ( 51 new, 43 gone, 26 different )
 
 * [60.0 vs 61.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v60.0-vs-v61.0.log.js "60.0 vs 61.0") - 211 diffs ( 90 new, 101 gone, 20 different )
