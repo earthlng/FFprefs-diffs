@@ -9,6 +9,8 @@ ___
 
 ## Changelog
 
+* [64.0 vs 65.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v64.0-vs-v65.0.log.js "64.0 vs 65.0") - 156 diffs ( 84 new, 45 gone, 27 different )
+
 * [63.0 vs 64.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v63.0-vs-v64.0.log.js "63.0 vs 64.0") - 140 diffs ( 63 new, 45 gone, 32 different )
 
 * [62.0 vs 63.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v62.0-vs-v63.0.log.js "62.0 vs 63.0") - 199 diffs ( 122 new, 56 gone, 21 different )
@@ -83,6 +85,8 @@ pref("pdfjs.useOnlyCssZoom", false);
 ### ESR
 
 <details><summary>ESR60.x (click to expand)</summary><p>
+
+* 60.4.0esr vs 60.5.0esr - no changes
 
 * 60.3.0esr vs 60.4.0esr - no changes
 
