@@ -3,7 +3,7 @@
  *
  * prefs: 3373
  *        3217 matching prefs
- *         156 diffs ( 84 new, 45 gone, 27 different )
+ *         154 diffs ( 84 new, 45 gone, 25 different )
  ******************************************************************************************/
 // new in v65.0:
 pref("apz.relative-update.enabled", true);
@@ -142,7 +142,6 @@ pref("services.sync.prefs.sync.browser.urlbar.suggest.history.onlyTyped", true);
 pref("browser.newtabpage.activity-stream.asrouter.providers.cfr", "{\"id\":\"cfr\",\"enabled\":true,\"type\":\"local\",\"localProvider\":\"CFRMessageProvider\",\"frequency\":{\"custom\":[{\"period\":\"daily\",\"cap\":1}]}}"); // prev: "{\"id\":\"cfr\",\"enabled\":false,\"type\":\"local\",\"localProvider\":\"CFRMessageProvider\",\"frequency\":{\"custom\":[{\"period\":\"daily\",\"cap\":1}]}}"
 pref("browser.newtabpage.activity-stream.asrouter.providers.onboarding", "{\"id\":\"onboarding\",\"type\":\"local\",\"localProvider\":\"OnboardingMessageProvider\",\"enabled\":true,\"exclude\":[\"RETURN_TO_AMO_1\"]}"); // prev: "{\"id\":\"onboarding\",\"type\":\"local\",\"localProvider\":\"OnboardingMessageProvider\",\"enabled\":true}"
 pref("browser.newtabpage.activity-stream.asrouter.providers.snippets", "{\"id\":\"snippets\",\"enabled\":true,\"type\":\"remote\",\"url\":\"https://snippets.cdn.mozilla.net/%STARTPAGE_VERSION%/%NAME%/%VERSION%/%APPBUILDID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/\",\"updateCycleInMs\":14400000}"); // prev: "{\"id\":\"snippets\",\"enabled\":false,\"type\":\"remote\",\"url\":\"https://snippets.cdn.mozilla.net/%STARTPAGE_VERSION%/%NAME%/%VERSION%/%APPBUILDID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/\",\"updateCycleInMs\":14400000}"
-pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines", "google"); // prev: ""
 pref("browser.safebrowsing.provider.mozilla.lists", "base-track-digest256,mozstd-trackwhite-digest256,content-track-digest256,mozplugin-block-digest256,mozplugin2-block-digest256,block-flash-digest256,except-flash-digest256,allow-flashallow-digest256,except-flashallow-digest256,block-flashsubdoc-digest256,except-flashsubdoc-digest256,except-flashinfobar-digest256,ads-track-digest256,social-track-digest256,analytics-track-digest256"); // prev: "base-track-digest256,mozstd-trackwhite-digest256,content-track-digest256,mozplugin-block-digest256,mozplugin2-block-digest256,block-flash-digest256,except-flash-digest256,allow-flashallow-digest256,except-flashallow-digest256,block-flashsubdoc-digest256,except-flashsubdoc-digest256,except-flashinfobar-digest256,ads-track-digest256,social-track-digest256,analytics-track-digest256,fastblock1-track-digest256,fastblock1-trackwhite-digest256,fastblock2-track-digest256,fastblock2-trackwhite-digest256,fastblock3-track-digest256"
 pref("devtools.flexboxinspector.enabled", true); // prev: false
 pref("devtools.inspector.changes.enabled", true); // prev: false
@@ -151,7 +150,6 @@ pref("devtools.netmonitor.visibleColumns", "[\"status\",\"method\",\"domain\",\"
 pref("devtools.webconsole.jsterm.reverse-search", true); // prev: false
 pref("dom.keyboardevent.dispatch_during_composition", true); // prev: false
 pref("dom.keyboardevent.keypress.dispatch_non_printable_keys_only_system_group_in_content", true); // prev: false
-pref("dom.push.alwaysConnect", true); // prev: false
 pref("dom.ua_widget.enabled", true); // prev: false
 pref("font.name-list.sans-serif.zh-TW", "Arial, PMingLiU, MingLiU, MingLiU-ExtB, Microsoft JhengHei"); // prev: "Arial, Microsoft JhengHei, PMingLiU, MingLiU, MingLiU-ExtB"
 pref("geo.provider.ms-windows-location", true); // prev: false
