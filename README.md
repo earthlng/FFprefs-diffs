@@ -92,6 +92,8 @@ pref("pdfjs.useOnlyCssZoom", false);
 
 <details><summary>ESR60.x (click to expand)</summary><p>
 
+* [60.7.0esr vs 60.8.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v60.7.0esr-vs-v60.8.0esr.log.js "60.7.0esr vs 60.8.0esr") - 13 diffs ( 1 new, 12 gone, 0 different )
+
 * 60.6.0esr vs 60.7.0esr - no changes
 
 * [60.5.0esr vs 60.6.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v60.5.0esr-vs-v60.6.0esr.log.js "60.5.0esr vs 60.6.0esr") - 8 diffs ( 1 new, 0 gone, 7 different )
