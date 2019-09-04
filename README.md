@@ -9,6 +9,8 @@ ___
 
 ## Changelog
 
+* [68.0 vs 69.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v68.0-vs-v69.0.log.js "68.0 vs 69.0") - 246 diffs ( 177 new, 33 gone, 36 different )
+
 * [67.0 vs 68.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v67.0-vs-v68.0.log.js "67.0 vs 68.0") - 237 diffs ( 133 new, 76 gone, 28 different )
 
 * [66.0 vs 67.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v66.0-vs-v67.0.log.js "66.0 vs 67.0") - 155 diffs ( 94 new, 37 gone, 24 different )
