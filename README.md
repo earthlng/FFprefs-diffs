@@ -3,7 +3,15 @@ listing changes in Firefox default preferences. The diffs are created using 64-b
 
 * all older diffs were created based solely on FF's default preferences files and therefore didn't include prefs
 set by system addons or other components. **59.0 vs 60.0 is the first diff which includes changes to those prefs as well.**
-  * ESR & OS diffs will continue to be based on the default preferences files only.
+  * ESR & OS diffs will continue to be based solely on the default preferences files
+
+update (Sept 2019):
+
+> ESR & OS diffs will continue to be based solely on the default preferences files
+
+* OS diffs discontinued because too many prefs were moved out of the default preferences files since FF61
+* **ESR diffs, starting with `60.9.0esr vs 68.0esr`, will now include all pref changes. <br>**
+To transition to the new system, `60.9.0esr vs 68.0esr` is a *default-preferences-only* 60.9.0esr vs the *full* 68.0esr diff
 
 ___
 
@@ -91,6 +99,12 @@ pref("pdfjs.useOnlyCssZoom", false);
 
 
 ### ESR
+
+<details><summary>ESR68.x (click to expand)</summary><p>
+
+* [60.9.0esr vs 68.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v60.9.0esr-vs-v68.0esr-full.log.js "60.9.0esr vs 68.0esr") - 1083 diffs ( 675 new, 328 gone, 80 different )
+
+</p></details>
 
 <details><summary>ESR60.x (click to expand)</summary><p>
 
