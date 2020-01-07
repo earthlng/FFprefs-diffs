@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [71.0 vs 72.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v71.0-vs-v72.0.log.js "71.0 vs 72.0") - 129 diffs ( 77 new, 29 gone, 23 different )
+
 * [70.0 vs 71.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v70.0-vs-v71.0.log.js "70.0 vs 71.0") - 154 diffs ( 72 new, 43 gone, 39 different )
 
 * [69.0 vs 70.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v69.0-vs-v70.0.log.js "69.0 vs 70.0") - 289 diffs ( 200 new, 52 gone, 37 different )
@@ -107,6 +109,8 @@ pref("pdfjs.useOnlyCssZoom", false);
 ### ESR
 
 <details><summary>ESR68.x (click to expand)</summary><p>
+
+* [68.3.0esr vs 68.4.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v68.3.0esr-vs-v68.4.0esr.log.js "68.3.0esr vs 68.4.0esr") - 2 diffs ( 1 new, 0 gone, 1 different )
 
 * [68.2.0esr vs 68.3.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v68.2.0esr-vs-v68.3.0esr.log.js "68.2.0esr vs 68.3.0esr") - 2 diffs ( 0 new, 0 gone, 2 different )
 
