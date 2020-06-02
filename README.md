@@ -44,7 +44,7 @@ ___
 
 ### ESR
 
-<details><summary>ESR68.x (click to expand)</summary><p>
+<details><summary>ESR68.x</summary><p>
 
 * 68.8.0esr vs 68.9.0esr - no changes
 
@@ -68,7 +68,7 @@ ___
 
 </p></details>
 
-<details><summary>ESR60.x (click to expand)</summary><p>
+<details><summary>ESR60.x</summary><p>
 
 * 60.8.0esr vs 60.9.0esr - no changes
 
@@ -92,7 +92,7 @@ ___
 
 </p></details>
 
-<details><summary>ESR52.x (click to expand)</summary><p>
+<details><summary>ESR52.x</summary><p>
 
 * 52.8.0esr vs 52.9.0esr - no changes
 
