@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [76.0 vs 77.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v76.0-vs-v77.0.log.js "76.0 vs 77.0") - 109 diffs ( 58 new, 33 gone, 18 different )
+
 * [75.0 vs 76.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v75.0-vs-v76.0.log.js "75.0 vs 76.0") - 75 diffs ( 36 new, 17 gone, 22 different )
 
 * [74.0 vs 75.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v74.0-vs-v75.0.log.js "74.0 vs 75.0") - 113 diffs ( 63 new, 24 gone, 26 different )
