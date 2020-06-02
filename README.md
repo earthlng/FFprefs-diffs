@@ -46,6 +46,8 @@ ___
 
 <details><summary>ESR68.x (click to expand)</summary><p>
 
+* 68.8.0esr vs 68.9.0esr - no changes
+
 * [68.7.0esr vs 68.8.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v68.7.0esr-vs-v68.8.0esr.log.js "68.7.0esr vs 68.8.0esr") - 1 diff ( 0 new, 0 gone, 1 different )
 
 * 68.6.0esr vs 68.7.0esr - no changes
