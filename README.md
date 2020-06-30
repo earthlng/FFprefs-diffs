@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [77.0 vs 78.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v77.0-vs-v78.0.log.js "77.0 vs 78.0") - 100 diffs ( 63 new, 19 gone, 18 different )
+
 * [76.0 vs 77.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v76.0-vs-v77.0.log.js "76.0 vs 77.0") - 109 diffs ( 58 new, 33 gone, 18 different )
 
 * [75.0 vs 76.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v75.0-vs-v76.0.log.js "75.0 vs 76.0") - 75 diffs ( 36 new, 17 gone, 22 different )
@@ -45,6 +47,8 @@ ___
 ### ESR
 
 <details><summary>ESR68.x</summary><p>
+
+* 68.9.0esr vs 68.10.0esr - no changes
 
 * 68.8.0esr vs 68.9.0esr - no changes
 
