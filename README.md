@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [78.0 vs 78.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v78.0esr.log.js "78.0 vs 78.0 ESR") - 1 diff ( 0 new, 0 gone, 1 different )
+
 * [77.0 vs 78.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v77.0-vs-v78.0.log.js "77.0 vs 78.0") - 100 diffs ( 63 new, 19 gone, 18 different )
 
 * [76.0 vs 77.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v76.0-vs-v77.0.log.js "76.0 vs 77.0") - 109 diffs ( 58 new, 33 gone, 18 different )
@@ -110,7 +112,7 @@ ___
 
 * 52.3.0esr vs 52.4.0esr - no changes
 
-* [52.2.0esr vs 52.3.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.2.0esr-vs-v52.3.0esr.log.js "52.2.0esr vs 52.3.0esr") - 1 diffs ( 0 new, 0 gone, 1 different )
+* [52.2.0esr vs 52.3.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.2.0esr-vs-v52.3.0esr.log.js "52.2.0esr vs 52.3.0esr") - 1 diff ( 0 new, 0 gone, 1 different )
 
 * [52.1.0esr vs 52.2.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.1.0esr-vs-v52.2.0esr.log.js "52.1.0esr vs 52.2.0esr") - 3 diffs ( 3 new, 0 gone, 0 different )
   
