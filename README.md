@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [78.0 vs 79.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v79.0.log.js "78.0 vs 79.0") - 93 diffs ( 42 new, 27 gone, 24 different )
+
 * [78.0 vs 78.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v78.0esr.log.js "78.0 vs 78.0 ESR") - 1 diff ( 0 new, 0 gone, 1 different )
 
 * [77.0 vs 78.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v77.0-vs-v78.0.log.js "77.0 vs 78.0") - 100 diffs ( 63 new, 19 gone, 18 different )
@@ -41,14 +43,20 @@ ___
 
 * [68.0 vs 68.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v68.0-vs-v68.0esr.log.js "68.0 vs 68.0 ESR") - 5 diffs ( 0 new, 0 gone, 5 different )
 
-* [67.0 vs 68.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/6x/diff-v67.0-vs-v68.0.log.js "67.0 vs 68.0") - 237 diffs ( 133 new, 76 gone, 28 different )
-
 * [older versions](https://github.com/earthlng/FFprefs-diffs/tree/master/diffs)
 
 
 ### ESR
 
+<details><summary>ESR78.x</summary><p>
+
+* [78.0esr vs 78.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.0esr-vs-v78.1.0esr.log.js "78.0esr vs 78.1.0esr") - 6 diffs ( 3 new, 2 gone, 1 different )
+
+</p></details>
+
 <details><summary>ESR68.x</summary><p>
+
+* 68.10.0esr vs 68.11.0esr - no changes
 
 * 68.9.0esr vs 68.10.0esr - no changes
 
