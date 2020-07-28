@@ -3,7 +3,7 @@ listing changes in Firefox default preferences. The diffs are created using 64-b
 
 * all older diffs were created based solely on FF's default preferences files and therefore didn't include prefs
 set by system addons or other components. **59.0 vs 60.0 is the first diff which includes changes to those prefs as well.**
-  * ESR & OS diffs will continue to be based solely on the default preferences files
+  * ~~ESR & OS diffs will continue to be based solely on the default preferences files~~
 
 update (Sept 2019):
 
