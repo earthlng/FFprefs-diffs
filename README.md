@@ -52,6 +52,8 @@ ___
 
 <details><summary>ESR78.x</summary><p>
 
+* [78.1.0esr vs 78.2.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.1.0esr-vs-v78.2.0esr.log.js "78.1.0esr vs 78.2.0esr") - 4 diffs ( 1 new, 0 gone, 3 different )
+
 * [78.0esr vs 78.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.0esr-vs-v78.1.0esr.log.js "78.0esr vs 78.1.0esr") - 6 diffs ( 3 new, 2 gone, 1 different )
 
 </p></details>
