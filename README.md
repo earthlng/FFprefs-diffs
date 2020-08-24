@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [79.0 vs 80.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v79.0-vs-v80.0.log.js "79.0 vs 80.0") - 65 diffs ( 40 new, 8 gone, 17 different )
+
 * [78.0 vs 79.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v79.0.log.js "78.0 vs 79.0") - 93 diffs ( 42 new, 27 gone, 24 different )
 
 * [78.0 vs 78.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v78.0esr.log.js "78.0 vs 78.0 ESR") - 1 diff ( 0 new, 0 gone, 1 different )
