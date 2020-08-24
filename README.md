@@ -58,6 +58,8 @@ ___
 
 <details><summary>ESR68.x</summary><p>
 
+* 68.11.0esr vs 68.12.0esr - no changes
+
 * 68.10.0esr vs 68.11.0esr - no changes
 
 * 68.9.0esr vs 68.10.0esr - no changes
