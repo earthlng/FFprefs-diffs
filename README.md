@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [82.0 vs 83.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v82.0-vs-v83.0.log.js "82.0 vs 83.0") - 102 diffs ( 48 new, 13 gone, 41 different )
+
 * [81.0 vs 82.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v81.0-vs-v82.0.log.js "81.0 vs 82.0") - 80 diffs ( 42 new, 22 gone, 16 different )
 
 * [80.0 vs 81.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v80.0-vs-v81.0.log.js "80.0 vs 81.0") - 77 diffs ( 42 new, 17 gone, 18 different )
@@ -33,6 +35,8 @@ ___
 ### ESR
 
 <details><summary>ESR78.x</summary><p>
+
+* [78.4.0esr vs 78.5.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.4.0esr-vs-v78.5.0esr.log.js "78.4.0esr vs 78.5.0esr") - 1 diffs ( 1 new, 0 gone, 0 different )
 
 * 78.3.0esr vs 78.4.0esr - no changes
 
