@@ -80,7 +80,7 @@ ___
 
 </p></details>
 
-<details><summary>ESR60.x</summary><p>
+<details><summary>ESR52.x & ESR60.x</summary><p>
 
 * 60.8.0esr vs 60.9.0esr - no changes
 
@@ -101,10 +101,6 @@ ___
 * [60.0esr vs 60.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v60.0esr-vs-v60.1.0esr.log.js "60.0esr vs 60.1.0esr") - 3 diffs ( 0 new, 1 gone, 2 different )
 
 * [52.9.0esr vs 60.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v52.9.0esr-vs-v60.0esr.log.js "52.9.0esr vs 60.0esr") - 1203 diffs ( 674 new, 322 gone, 207 different )
-
-</p></details>
-
-<details><summary>ESR52.x</summary><p>
 
 * 52.8.0esr vs 52.9.0esr - no changes
 
