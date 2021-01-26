@@ -40,6 +40,8 @@ ___
 
 <details><summary>ESR78.x</summary><p>
 
+* 78.6.0esr vs 78.7.0esr - no changes
+
 * [78.5.0esr vs 78.6.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.5.0esr-vs-v78.6.0esr.log.js "78.5.0esr vs 78.6.0esr") - 1 diff ( 0 new, 0 gone, 1 different )
 
 * [78.4.0esr vs 78.5.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.4.0esr-vs-v78.5.0esr.log.js "78.4.0esr vs 78.5.0esr") - 1 diff ( 1 new, 0 gone, 0 different )
