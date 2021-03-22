@@ -17,6 +17,8 @@ ___
 
 ## Changelog
 
+* [86.0 vs 87.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v86.0-vs-v87.0.log.js "86.0 vs 87.0") - 104 diffs ( 60 new, 34 gone, 10 different )
+ 
 * [85.0 vs 86.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v85.0-vs-v86.0.log.js "85.0 vs 86.0") - 80 diffs ( 30 new, 32 gone, 18 different )
 
 * [84.0 vs 85.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v84.0-vs-v85.0.log.js "84.0 vs 85.0") - 58 diffs ( 33 new, 8 gone, 17 different )
