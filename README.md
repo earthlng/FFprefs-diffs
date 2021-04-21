@@ -1,21 +1,11 @@
 # FFprefs-diffs
 listing changes in Firefox default preferences. The diffs are created using 64-bit Firefoxes (en-US) on Windows.
 
-* all older diffs were created based solely on FF's default preferences files and therefore didn't include prefs
-set by system addons or other components. **59.0 vs 60.0 is the first diff which includes changes to those prefs as well.**
-  * ~~ESR & OS diffs will continue to be based solely on the default preferences files~~
-
-update (Sept 2019):
-
-> ESR & OS diffs will continue to be based solely on the default preferences files
-
-* OS diffs discontinued because too many prefs were moved out of the default preferences files since FF61
-* **ESR diffs, starting with `60.9.0esr vs 68.0esr`, will now include all pref changes. <br>**
-To transition to the new system, `60.9.0esr vs 68.0esr` is a *default-preferences-only* 60.9.0esr vs the *full* 68.0esr diff
-
 ___
 
 ## Changelog
+
+* [87.0 vs 88.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v87.0-vs-v88.0.log.js "87.0 vs 88.0") - 98 diffs ( 40 new, 41 gone, 17 different )
 
 * [86.0 vs 87.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v86.0-vs-v87.0.log.js "86.0 vs 87.0") - 104 diffs ( 60 new, 34 gone, 10 different )
  
@@ -43,6 +33,10 @@ ___
 ### ESR
 
 <details><summary>ESR78.x</summary><p>
+
+* [78.9.0esr vs 78.10.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.9.0esr-vs-v78.10.0esr.log.js "78.9.0esr vs 78.10.0esr") - 1 diff ( 1 new, 0 gone, 0 different )
+
+* 78.8.0esr vs 78.9.0esr - no changes
 
 * [78.7.0esr vs 78.8.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.7.0esr-vs-v78.8.0esr.log.js "78.7.0esr vs 78.8.0esr") - 3 diffs ( 1 new, 0 gone, 2 different )
 
