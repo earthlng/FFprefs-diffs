@@ -40,8 +40,30 @@ ___
 
 ### ESR
 
-<details><summary>ESR78.x</summary><p>
+<details><summary>ESR91.x</summary><p>
 
+* 91.4.0esr vs 91.5.0esr - no changes
+
+* [91.3.0esr vs 91.4.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.3.0esr-vs-v91.4.0esr.log.js "91.3.0esr vs 91.4.0esr") - 4 diffs ( 2 new, 1 gone, 1 different )
+
+* [91.2.0esr vs 91.3.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.2.0esr-vs-v91.3.0esr.log.js "91.2.0esr vs 91.3.0esr") - 5 diffs ( 1 new, 0 gone, 4 different )
+
+* 91.1.0esr vs 91.2.0esr - no changes
+
+* [91.0esr vs 91.1.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.0esr-vs-v91.1.0esr.log.js "91.0esr vs 91.1.0esr") - 7 diffs ( 7 new, 0 gone, 0 different )
+
+* [78.15.0esr vs 91.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.15.0esr-vs-v91.0esr.log.js "78.15.0esr vs 91.0esr") - 898 diffs ( 520 new, 251 gone, 127 different )
+
+</p></details>
+
+<details><summary>ESR78.x & ESR68.x & ESR60.x & ESR52.x</summary><p>
+
+* 78.14.0esr vs 78.15.0esr - no changes
+
+* [78.13.0esr vs 78.14.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.13.0esr-vs-v78.14.0esr.log.js "78.13.0esr vs 78.14.0esr") - 1 diff ( 1 new, 0 gone, 0 different )
+ 
+* [78.12.0esr vs 78.13.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v78.12.0esr-vs-v78.13.0esr.log.js "78.12.0esr vs 78.13.0esr") - 1 diff ( 1 new, 0 gone, 0 different )
+ 
 * 78.11.0esr vs 78.12.0esr - no changes
 
 * 78.10.0esr vs 78.11.0esr - no changes
@@ -68,10 +90,8 @@ ___
 
 * [68.12.0esr vs 78.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v68.12.0esr-vs-v78.0esr.log.js "68.12.0esr vs 78.0esr") - 1093 diffs ( 762 new, 214 gone, 117 different )
 
-</p></details>
-
-<details><summary>ESR68.x & ESR60.x & ESR52.x</summary><p>
-
+**ESR68.x**
+ 
 * 68.11.0esr vs 68.12.0esr - no changes
 
 * 68.10.0esr vs 68.11.0esr - no changes
