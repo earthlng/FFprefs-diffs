@@ -5,35 +5,17 @@ ___
 
 ## Changelog
 
+* [95.0 vs 96.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v95.0-vs-v96.0.log.js "95.0 vs 96.0") - 96 diffs ( 60 new, 22 gone, 14 different )
+
+* [94.0 vs 95.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v94.0-vs-v95.0.log.js "94.0 vs 95.0") - 63 diffs ( 42 new, 14 gone, 7 different )
+
+* [93.0 vs 94.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v93.0-vs-v94.0.log.js "93.0 vs 94.0") - 122 diffs ( 45 new, 65 gone, 12 different )
+
+* [92.0 vs 93.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v92.0-vs-v93.0.log.js "92.0 vs 93.0") - 97 diffs ( 52 new, 30 gone, 15 different )
+
 * [91.0 vs 92.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v91.0-vs-v92.0.log.js "91.0 vs 92.0") - 74 diffs ( 40 new, 23 gone, 11 different )
 
-* [90.0 vs 91.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v90.0-vs-v91.0.log.js "90.0 vs 91.0") - 79 diffs ( 35 new, 31 gone, 13 different )
-
-* [89.0 vs 90.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v89.0-vs-v90.0.log.js "89.0 vs 90.0") - 104 diffs ( 61 new, 29 gone, 14 different )
-
-* [88.0 vs 89.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v88.0-vs-v89.0.log.js "88.0 vs 89.0") - 130 diffs ( 74 new, 23 gone, 33 different )
-
-* [87.0 vs 88.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v87.0-vs-v88.0.log.js "87.0 vs 88.0") - 98 diffs ( 40 new, 41 gone, 17 different )
-
-* [86.0 vs 87.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v86.0-vs-v87.0.log.js "86.0 vs 87.0") - 104 diffs ( 60 new, 34 gone, 10 different )
- 
-* [85.0 vs 86.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v85.0-vs-v86.0.log.js "85.0 vs 86.0") - 80 diffs ( 30 new, 32 gone, 18 different )
-
-* [84.0 vs 85.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v84.0-vs-v85.0.log.js "84.0 vs 85.0") - 58 diffs ( 33 new, 8 gone, 17 different )
-
-* [83.0 vs 84.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v83.0-vs-v84.0.log.js "83.0 vs 84.0") - 79 diffs ( 38 new, 24 gone, 17 different )
-
-* [82.0 vs 83.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v82.0-vs-v83.0.log.js "82.0 vs 83.0") - 102 diffs ( 48 new, 13 gone, 41 different )
-
-* [81.0 vs 82.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v81.0-vs-v82.0.log.js "81.0 vs 82.0") - 80 diffs ( 42 new, 22 gone, 16 different )
-
-* [80.0 vs 81.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v80.0-vs-v81.0.log.js "80.0 vs 81.0") - 77 diffs ( 42 new, 17 gone, 18 different )
-
-* [79.0 vs 80.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/8x/diff-v79.0-vs-v80.0.log.js "79.0 vs 80.0") - 65 diffs ( 40 new, 8 gone, 17 different )
-
-* [78.0 vs 79.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v79.0.log.js "78.0 vs 79.0") - 93 diffs ( 42 new, 27 gone, 24 different )
-
-* [78.0 vs 78.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/7x/diff-v78.0-vs-v78.0esr.log.js "78.0 vs 78.0 ESR") - 1 diff ( 0 new, 0 gone, 1 different )
+* [91.0 vs 91.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v91.0-vs-v91.0esr.log.js "91.0 vs 91.0 ESR") - 1 diff ( 0 new, 0 gone, 1 different )
 
 * [older versions](https://github.com/earthlng/FFprefs-diffs/tree/master/diffs)
 
