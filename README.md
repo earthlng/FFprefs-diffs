@@ -26,6 +26,8 @@ ___
 
 <details><summary>ESR91.x</summary><p>
 
+* [91.5.0esr vs 91.6.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.5.0esr-vs-v91.6.0esr.log.js "91.5.0esr vs 91.6.0esr") - 3 diffs ( 0 new, 0 gone, 3 different )
+
 * 91.4.0esr vs 91.5.0esr - no changes
 
 * [91.3.0esr vs 91.4.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.3.0esr-vs-v91.4.0esr.log.js "91.3.0esr vs 91.4.0esr") - 4 diffs ( 2 new, 1 gone, 1 different )
