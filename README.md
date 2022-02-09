@@ -5,6 +5,8 @@ ___
 
 ## Changelog
 
+* [96.0 vs 97.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v96.0-vs-v97.0.log.js "96.0 vs 97.0") - 86 diffs ( 54 new, 14 gone, 18 different )
+
 * [95.0 vs 96.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v95.0-vs-v96.0.log.js "95.0 vs 96.0") - 96 diffs ( 60 new, 22 gone, 14 different )
 
 * [94.0 vs 95.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v94.0-vs-v95.0.log.js "94.0 vs 95.0") - 63 diffs ( 42 new, 14 gone, 7 different )
