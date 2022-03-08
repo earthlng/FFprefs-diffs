@@ -5,6 +5,8 @@ ___
 
 ## Changelog
 
+* [97.0 vs 98.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v97.0-vs-v98.0.log.js "97.0 vs 98.0") - 119 diffs ( 59 new, 47 gone, 13 different )
+
 * [96.0 vs 97.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v96.0-vs-v97.0.log.js "96.0 vs 97.0") - 86 diffs ( 54 new, 14 gone, 18 different )
 
 * [95.0 vs 96.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v95.0-vs-v96.0.log.js "95.0 vs 96.0") - 96 diffs ( 60 new, 22 gone, 14 different )
@@ -25,6 +27,8 @@ ___
 ### ESR
 
 <details><summary>ESR91.x</summary><p>
+
+* 91.6.0esr vs 91.7.0esr - no changes
 
 * [91.5.0esr vs 91.6.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.5.0esr-vs-v91.6.0esr.log.js "91.5.0esr vs 91.6.0esr") - 3 diffs ( 0 new, 0 gone, 3 different )
 
