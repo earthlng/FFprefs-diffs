@@ -5,6 +5,10 @@ ___
 
 ## Changelog
 
+* [100.0 vs 101.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/10x/diff-v100.0-vs-v101.0.log.js "100.0 vs 101.0") - 65 diffs ( 37 new, 13 gone, 15 different )
+
+* [99.0 vs 100.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/10x/diff-v99.0-vs-v100.0.log.js "99.0 vs 100.0") - 104 diffs ( 46 new, 36 gone, 22 different )
+
 * [98.0 vs 99.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v98.0-vs-v99.0.log.js "98.0 vs 99.0") - 69 diffs ( 38 new, 11 gone, 20 different )
 
 * [97.0 vs 98.0](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/9x/diff-v97.0-vs-v98.0.log.js "97.0 vs 98.0") - 119 diffs ( 59 new, 47 gone, 13 different )
@@ -30,6 +34,10 @@ ___
 
 <details><summary>ESR91.x</summary><p>
 
+* [91.9.0esr vs 91.10.0esr](https://github.com/earthlng/FFprefs-diffs/blob/master/diffs/ESR/diff-v91.9.0esr-vs-v91.10.0esr.log.js "91.9.0esr vs 91.10.0esr") - 2 diffs ( 1 new, 0 gone, 1 different )
+
+* 91.8.0esr vs 91.9.0esr - no changes
+ 
 * 91.7.0esr vs 91.8.0esr - no changes
 
 * 91.6.0esr vs 91.7.0esr - no changes
